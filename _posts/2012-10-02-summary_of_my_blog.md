@@ -2,7 +2,7 @@
 layout: post
 title: Summary of My Blog
 category : Blog
-tags : [Blog, MT]
+tags : [Blog]
 ---
 
 ##写在前面的话

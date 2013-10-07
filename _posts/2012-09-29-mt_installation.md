@@ -2,7 +2,7 @@
 layout: post
 title: MT Installation I
 category : Blog
-tags : [Blog, MT, Linux]
+tags : [Blog, Linux]
 ---
 
 ##MovableType 安装记录

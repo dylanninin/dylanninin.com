@@ -2,7 +2,7 @@
 layout: post
 title: Oracle Database Concepts
 category : Oracle
-tags : [Oracle, Database, DBA, Concept]
+tags : [Oracle, Database, DBA]
 ---
 
 ##写在前面的话

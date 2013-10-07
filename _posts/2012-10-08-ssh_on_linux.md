@@ -2,7 +2,7 @@
 layout: post
 title: SSH Security Introduction on Linux
 category : Linux
-tags : [Linux, Security, SSH]
+tags : [Linux, Security]
 ---
 
 ##写在前面的话

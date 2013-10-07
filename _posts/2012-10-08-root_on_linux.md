@@ -2,7 +2,7 @@
 layout: post
 title: Root Security Introduction on Linux
 category : Linux
-tags : [Linux, Security, Root]
+tags : [Linux, Security]
 ---
 
 ##写在前面的话
