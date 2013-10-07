@@ -3,7 +3,8 @@ body {
 }
 
 #content { 
-    margin-top:40px; 
+    margin-top:40px;
+	min-height:800px;
 }
 
 .content-nav { 
