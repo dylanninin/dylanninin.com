@@ -63,7 +63,7 @@ HTML/CSS/JS：这些是基础，BS架构的应用离不开
 
 JSP/Servlet：参考良葛格的[Servlet/JSP Gossip](http://openhome.cc/Gossip/ServletJSP/)，Java服务端编程基础，必须掌握。
 
-XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，编辑配置文件、自动化脚本、WebService等都离不开XML，必须掌握。
+XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，配套的[PPT](https://drive.google.com/folderview?id=0B_BiAoqYvwURRVJsSWRHcEx1MzA&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)编辑配置文件、自动化脚本、WebService等都离不开XML，必须掌握。
 
 Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/tomcat/HowTomcatWorks.pdf)，熟悉Java Web容器的原理以及实现细节，源代码很适合阅读。
         
@@ -71,11 +71,11 @@ Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/
 
 大学时做过一些Web项目基本都是SSH框架，对中小型企业已经够用，其他的暂未接触。
 
-前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考[2010-3-10_Struts2_讲义_IBM]()。
+前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考[2010-3-10_Struts2_讲义_IBM](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
     
-数据库ORM框架：[Hibernate3+](http://www.hibernate.org/)，参考[2012-9-12_Hibernate.ppt]()。
+数据库ORM框架：[Hibernate3+](http://www.hibernate.org/)，参考[2012-9-12_Hibernate.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcFZ3LWRzdXlDQm8/edit?usp=drive_web)。
 
-全能框架：[Spring2.5+](http://spring.io/)，参考[2012-9-12_Spring.ppt]()。
+全能框架：[Spring2.5+](http://spring.io/)，参考[2012-9-12_Spring.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcWxzdGRtTE9FRkE/edit?usp=drive_web&pli=1)。
 
 ##工具
 
@@ -118,4 +118,4 @@ UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.c
 * [UML](http://www.uml.org/)
 * [陈皓 Java数据Top10](http://coolshell.cn/articles/14.html)
 * [MyEclipse10优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)
-
+* [Google Drive](https://drive.google.com/folderview?id=0B_BiAoqYvwURUnVISmVDX3hZTGc&usp=sharing)
