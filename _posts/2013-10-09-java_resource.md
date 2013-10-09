@@ -63,7 +63,7 @@ HTML/CSS/JS：这些是基础，BS架构的应用离不开
 
 JSP/Servlet：参考良葛格的[Servlet/JSP Gossip](http://openhome.cc/Gossip/ServletJSP/)，Java服务端编程基础，必须掌握。
 
-XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，配套的[PPT](https://drive.google.com/folderview?id=0B_BiAoqYvwURRVJsSWRHcEx1MzA&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)编辑配置文件、自动化脚本、WebService等都离不开XML，必须掌握。
+XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，配套的[PPT](https://drive.google.com/folderview?id=0B_BiAoqYvwURRVJsSWRHcEx1MzA&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)，编辑配置文件、自动化脚本、WebService等都离不开XML，必须掌握。
 
 Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/tomcat/HowTomcatWorks.pdf)，熟悉Java Web容器的原理以及实现细节，源代码很适合阅读。
         
