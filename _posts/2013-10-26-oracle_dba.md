@@ -45,65 +45,65 @@ EBS 11i和R12，包括Apps和DB，以及一些IT系统的数据库，包括Oracl
 分都可以在[Oracle Database Documentation Library](http://www.oracle.com/pls/db112/homepage)
 和[Oracle Blogs](https://blogs.oracle.com/)中找到。
 
-roadmap
+* roadmap
 
-* [Maclean：学习Oracle Database的自由之翼](http://www.askmaclean.com/archives/linked-to-oracle-world.html)
-* [Tom: the road map to 10g documentation](http://dylanninin.com/assets/themes/images/2013/tom.jpg)
-* [High Level Vision of DSI](http://dylanninin.com/assets/themes/images/2013/dsi.jpg)
+	* [Maclean：学习Oracle Database的自由之翼](http://www.askmaclean.com/archives/linked-to-oracle-world.html)
+	* [Tom: the road map to 10g documentation](http://dylanninin.com/assets/themes/images/2013/tom.jpg)
+	* [High Level Vision of DSI](http://dylanninin.com/assets/themes/images/2013/dsi.jpg)
 
-fundamentals (SQL, PL/SQL, `SQL*Plus`, PL/SQL Developer)
+* fundamentals (SQL, PL/SQL, `SQL*Plus`, PL/SQL Developer)
 
-* Oracle SQL教程
-* Oracle SQL & PL/SQL 教程
-* `SQL*Plus` Quick Reference
-* PL/SQL Language Reference
-* PL/SQL Developer 8.0 User’s Guide 
+	* Oracle SQL教程
+	* Oracle SQL & PL/SQL 教程
+	* `SQL*Plus` Quick Reference
+	* PL/SQL Language Reference
+	* PL/SQL Developer 8.0 User’s Guide 
 
-administration
+* administration
 
-* 2 Day DBA
-* 2 Day + Security Guide
-* Concepts
-* Administrator's Guide
-* Net Services Administrator's Guide
-* Error Messages
+	* 2 Day DBA
+	* 2 Day + Security Guide
+	* Concepts
+	* Administrator's Guide
+	* Net Services Administrator's Guide
+	* Error Messages
 
-tuning & diagnostics
+* tuning & diagnostics
 
-* 2 Day + Performance Tuning Guide
-* Performance Tuning Guide
-* Cost Based Oracle Fundamentals
+	* 2 Day + Performance Tuning Guide
+	* Performance Tuning Guide
+	* Cost Based Oracle Fundamentals
 
-high availability
+* high availability
 
-* High Availability Best Practices
-* The White Paper: Oracle Database 11g Release 2 High Availability 
-* Data Guard Concepts and Administration
-* Backup and Recovery User's Guide
-* Real Application Clusters Administration and Deployment Guide
+	* High Availability Best Practices
+	* The White Paper: Oracle Database 11g Release 2 High Availability 
+	* Data Guard Concepts and Administration
+	* Backup and Recovery User's Guide
+	* Real Application Clusters Administration and Deployment Guide
    
-development
+* development
 
-* 2 Day + Java Developer's Guide
-* Java Developer's Guide
-* JDBC Developer's Guide
+	* 2 Day + Java Developer's Guide
+	* Java Developer's Guide
+	* JDBC Developer's Guide
    
-book
+* book
 
-* [陈吉平：构建Oracle高可用环境--企业级高可用数据库架构、实战与经验总结](http://www.douban.com/subject/2531036/)
-* [Oracle DBA手记1：数据库诊断案例与性能优化实践](http://www.douban.com/subject/4209919/)
-* [Oracle DBA手记2：数据库诊断案例与内部恢复实践](http://book.douban.com/subject/5362865/)
-* [Oracle DBA手记3：数据库性能优化与内部原理解析](http://book.douban.com/subject/6849408/)
-* [Fenng维护的豆列：Oracle优秀图书](http://www.douban.com/doulist/10940/)
+	* [陈吉平：构建Oracle高可用环境--企业级高可用数据库架构、实战与经验总结](http://www.douban.com/subject/2531036/)
+	* [Oracle DBA手记1：数据库诊断案例与性能优化实践](http://www.douban.com/subject/4209919/)
+	* [Oracle DBA手记2：数据库诊断案例与内部恢复实践](http://book.douban.com/subject/5362865/)
+	* [Oracle DBA手记3：数据库性能优化与内部原理解析](http://book.douban.com/subject/6849408/)
+	* [Fenng维护的豆列：Oracle优秀图书](http://www.douban.com/doulist/10940/)
 
-blog
+* blog
 
-* [Oracle DB/EM Support](https://blogs.oracle.com/db/)
-* [Oracle Optimizer](https://blogs.oracle.com/optimizer/)
-* [Dave](http://blog.csdn.net/tianlesoftware)
-* [Eygle](http://www.eygle.com/)
+	* [Oracle DB/EM Support](https://blogs.oracle.com/db/)
+	* [Oracle Optimizer](https://blogs.oracle.com/optimizer/)
+	* [Dave](http://blog.csdn.net/tianlesoftware)
+	* [Eygle](http://www.eygle.com/)
 
-reference
+* reference
     
-* [Tahiti Documentation](http://tahiti.oracle.com/)
-* [Oracle Metalink](https://support.oracle.com)
+	* [Tahiti Documentation](http://tahiti.oracle.com/)
+	* [Oracle Metalink](https://support.oracle.com)
