@@ -69,14 +69,14 @@ Oracle ERP的相关文档基本上都是英文的，但因为缺少中文文档�
 	* Oracle Application Installation Guide:Using Rapid Install
 	* Oracle Applications Concepts
 	* Oracle Applications Multiple Organizations Implementation Guide
-	
+
 * administration	
 
 	* Oracle Applications System Administrator's Guide - Configuration
 	* Oracle Applications System Administrator's Guide - Maintenance
 	* Oracle Applications System Administrator's Guide - Security
 	* Oracle Web Applications Desktop Intergrator Implementation and Administrator's Guide
-	
+
 * tuning & diagnostics
 
 	* Tuning All Layers of EBS
@@ -91,7 +91,7 @@ Oracle ERP的相关文档基本上都是英文的，但因为缺少中文文档�
 	* Oracle Workflow Administrator's Guide
 	* Oracle Workflow User's Guide
 	* Oracle Application User Interface Standards for Forms-Based Products
-    
+
 * book
     
 	* [Oracle E-Business Suite: ERP DBA实践指南](http://book.douban.com/subject/10795733/)
