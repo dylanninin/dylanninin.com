@@ -49,7 +49,7 @@ roadmap
 
 * [Maclean：学习Oracle Database的自由之翼](http://www.askmaclean.com/archives/linked-to-oracle-world.html)
 * [Tom: the road map to 10g documentation](http://dylanninin.com/assets/themes/images/2013/tom.jpg)
-* [High Level Vision of DSI](http://dylanninin.com/assets/themes/images/2013/dsi.png)
+* [High Level Vision of DSI](http://dylanninin.com/assets/themes/images/2013/dsi.jpg)
 
 fundamentals (SQL, PL/SQL, `SQL*Plus`, PL/SQL Developer)
 
