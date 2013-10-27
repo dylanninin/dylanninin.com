@@ -91,20 +91,20 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 
 目前ERP正式、测试环境使用AIX 5.3操作系统，共用磁阵，拷贝数据可以采用挂载文件系统的方式进行
 
-5.1)卸载正式环境上/u1文件系统
+卸载正式环境上/u1文件系统
 
 	--root@prod
 	fuser -u /dev/fslv00
 	umount /u1
 	varyoffvg prodvg
 
-5.2)挂载/u1到测试环境
+挂载/u1到测试环境
 
 	--root@test
 	varyonvg prodvg
 	mount /u1
 
-5.3)复制原系统数据到目标系统
+复制原系统数据到目标系统
 
 	--root@test
 	cp -hrf /u1/PROD/prodora/proddb /u2/TEST/testora/testdb &
@@ -118,12 +118,12 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	cp -hrf /u1/PROD/prodmgr/prodcomn/util /u2/TEST/testmgr/testcomn/util &
 	cp -hrf /u1/PROD/prodmgr/prodcomn/clone /u2/TEST/testmgr/testcomn/clone &
 
-5.4)检查复制数据任务是否完成
+检查复制数据任务是否完成
 	
 	--root@test
 	jobs 或 ps -ef|grep cp
 
-5.5)复制完成后，测试环境上卸载/u1，并将/u1挂载至原系统
+复制完成后，测试环境上卸载/u1，并将/u1挂载至原系统
 
 	--root@test
 	unmount /u1
@@ -133,7 +133,7 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	varyonvg prodvg
 	mount /u1
 
-6)开启原系统数据库、应用等，使应用正常提供服务
+开启原系统数据库、应用等，使应用正常提供服务
 
 开启DB、监听
 
@@ -166,7 +166,7 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 
 原系统中新增了重做日志组，路径/erpdata/redodata
 
-2.1)复制重做日志
+复制重做日志
 
 	su - testora
 
@@ -177,7 +177,7 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	cp /u2/TEST/testora/testdata/redo02.dbf /erpdata/redodata
 	cd /erpdata/redodata
 	
-2.2)更改重做日志组设置
+更改重做日志组设置
 
 系统中重做日志组更改了路径，此时需要手动更改adcrdb.zip中的配置
 
@@ -199,12 +199,12 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 
 	zip -o adcrdb.zip adcrdbclone.sql adcrdb.sh dbfinfo.lst
 
-2.3)运行orainstRoot.sh脚本
+运行orainstRoot.sh脚本
 	
 	--root@test
 	/tmp/orainstRoot.sh
 
-2.4)配置和开启数据库层
+配置和开启数据库层
 
 从原系统克隆复制过来的配置需要根据目标系统进行一些调整，需谨慎
 
@@ -227,12 +227,12 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	3
 	... ...
 
-2.5)再次运行orainstRoot.sh脚本
+再次运行orainstRoot.sh脚本
 
 	--root@test
 	/tmp/orainstRoot.sh
 
-2.6)配置和开启应用层
+配置和开启应用层
 
 	--testmgr
 	cd /u2/TEST/testmgr/testcomn/clone/bin
@@ -320,12 +320,12 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 
 1)Profile参数设置
 
-1.1)更改颜色和Site name
+更改颜色和Site name
 
 	System profile -> Java Color Scheme : blue
 	Site Name : ERP
 
-1.2)重新配置应用
+2)重新配置应用
 
 关闭应用
 
@@ -372,19 +372,19 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	vi $IAS_ORACLE_HOME/Apache/modplsql/cfg/wdbsvr.app
 	password = newpassword
 
-5.3)运行自动配置脚本
+运行自动配置脚本
 
 	--testmgr
 	adautocfg.sh
 
 6)初始化参数设置
 
-6.1)关闭数据库
+关闭数据库
 
 	--testora
 	addbctl.sh stop immediate
 
-6.2)设置归档参数
+设置归档参数
 
 	cd /u2/TEST/testora/testdb/9.2.0/dbs
 	vi initERP.ora
@@ -393,7 +393,7 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 	log_archive_dest_1 ='location=/u2/TEST/testora/arclog/'
 	log_archive_format ='arch_%t_%s.arc'
 
-6.3)开启数据库
+开启数据库
 
 	$ sqlplus /nolog
 	SQL> conn /as sysdba
@@ -489,5 +489,5 @@ ERPProd和ERPTest环境一样，在硬件方面ERPTest配置稍低
 
 ##参考
 
-* 230672.1 Cloning Oracle Applications Release 11i with Rapid Clone
-* 398619.1 EBS 11i Creating a Clone using Oracle Application Manager (OAM Clone)
+* Cloning Oracle Applications Release 11i with Rapid Clone
+* EBS 11i Creating a Clone using Oracle Application Manager (OAM Clone)
