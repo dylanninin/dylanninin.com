@@ -2,15 +2,13 @@
 layout: post
 title: Access Dapenti via VPN
 category : Miscellanies
-tags : [VPN, Exception]
+tags : [Network, Exception]
 ---
 
-##介绍
-
-当登陆VPN时你已经可以正常访问一些在gfw列表中的网站；但很可能国内的一些网站却不能打开了，比如[打喷嚏](http://dapenti.org)，此时你就需要看下本机的路由设置是否正确。因为连接VPN后本机的默认路由可能已经更改，此时所有的连接都会经过默认路由出去；而由于文化、版权等原因，国内很多网站往往是不对境外提供服务的。此时则需要针对这些网站手动添加路由，这样访问时就不走VPN了；当然这样也可以减少不必要的流量浪费。
-
+当登陆VPN时你已经可以正常访问一些在gfw列表中的网站；但很可能国内的一些网站却不能 打开了，比如[打喷嚏](http://dapenti.org)，此时你就需要看下本机的路由设置是否正 确。因为连接VPN后本机的默认路由可能已经更改，此时所有的连接都会经过默认路由出去； 而由于文化、版权等原因，国内很多网站往往是不对境外提供服务的。此时则需要针对这些 网站手动添加路由，这样访问时就不走VPN了；当然这样也可以减少不必要的流量浪费。
 
 ##查看打喷嚏ip
+
     C:\Users\dylanninin@gmail.com>nslookup dapenti.org
     服务器:  google-public-dns-a.google.com
     Address:  8.8.8.8
@@ -20,6 +18,7 @@ tags : [VPN, Exception]
     Address:  122.226.227.53
 
 ##查看路由命令帮助
+
     C:\Users\dylanninin@gmail.com>route add
 
     操作网络路由表。
@@ -89,8 +88,7 @@ tags : [VPN, Exception]
 
 ##指定路由规则
 
-因本机使用路由器连接，ip为192.168.1.123，子网掩码为255.255.255.0，网关为192.168.1.1；这里指定访问打喷嚏走路由192.168.1.1；
-而非默认的VPN网关。
+因本机使用路由器连接，ip为192.168.1.123，子网掩码为255.255.255.0，网关为192.168.1.1； 这里指定访问打喷嚏走路由192.168.1.1；而非默认的VPN网关。
 
     C:\Users\dylanninin@gmail.com>route add 122.226.227.53 mask 255.255.255.255 192.168.1.1
  

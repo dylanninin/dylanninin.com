@@ -5,19 +5,18 @@ category : Oracle
 tags : [Oracle, Database, DBA]
 ---
 
-##写在前面的话
-
-因新项目开发需要，现需建立新的测试数据库。但目前测试服务器没有到位，故暂且使用以前的测试机代替，其中安装的Oracle数据库仅作学习测试使用，数据库名、实例名均为dbtest。现在将此数据库的数据库名、实例名从dbtest改为CRMTEST。
+因新项目开发需要，现需建立新的测试数据库。但目前测试服务器没有到位，故暂且使用以 前的测试机代替，其中安装的Oracle数据库仅作学习测试使用，数据库名、实例名均为 dbtest。现在将此数据库的数据库名、实例名从dbtest改为CRMTEST。
 
 以下是更改记录，以作备忘。
 
 ##测试环境
 
-* 操作系统：CentOS 5.5 
+* 操作系统：CentOS 5.5
 * 数据库: Oracle Database 10.2.0.1.0
 
 ##主要步骤
 ###1. 先更改dbname
+
 修改oracle数据库的dbid和dbname，主要步骤如下：
 
 * 1)将数据库启动到mount状态：`startup mount`;
@@ -158,8 +157,7 @@ nid即new database id，根据`dbname`生成新的`dbid`：
 	log_file_name_convert      string
 	service_names              string    dbtest
 
-到这里，已经将`dbname`从dbtest更改为CRMTEST，但`instance_name`还是dbtest，接下来将`intance_name`更改为CRMTEST。
-其他的如`db_unique_name`，`service_names`同样更改为CRMTEST。
+到这里，已经将`dbname`从dbtest更改为CRMTEST，但`instance_name`还是dbtest，接下来 将`intance_name`更改为CRMTEST。 其他的如`db_unique_name`，`service_names`同样更改为CRMTEST。
 
 ###2. 再更改`instance_name`
 
@@ -190,6 +188,7 @@ nid即new database id，根据`dbname`生成新的`dbid`：
 	-rw-r----- 1 oracle oinstall 3584 Oct 9 20:17 spfiledbtest.ora
 
 ####2)创建initCRMTEST.ora文件，设置相关参数
+
 拷贝initdbtest.ora到initCRMTEST.ora：
 	
 	[oracle@shoptest dbs]$ cp initdbtest.ora initCRMTEST.ora
@@ -376,7 +375,8 @@ nid即new database id，根据`dbname`生成新的`dbid`：
 	Instance "PLSExtProc", status UNKNOWN, has 1 handler(s) for this service...
 	The command completed successfully
 
-最后，注意更改bash环境变量，设置`ORACLE_SID=CRMTEST`，之前使用`export ORACLE_SID=CRMTEST`仅对当前的用户有效
+最后，注意更改bash环境变量，设置`ORACLE_SID=CRMTEST`，之前使用
+`export ORACLE_SID=CRMTEST`仅对当前的用户有效
 
 	[oracle@shoptest admin]$ vim ~/.bash_profile
 	... ...
@@ -385,7 +385,8 @@ nid即new database id，根据`dbname`生成新的`dbid`：
 
 ##测试和确认
 
-这样数据库的`instance_name`就更改完成，下面进行一些简单的测试，确认更改成功，主要测试一下几个方面：
+这样数据库的`instance_name`就更改完成，下面进行一些简单的测试，确认更改成功，主
+要测试一下几个方面：
 * 监听正常，可以接收连接请求：tnsping crmtest
 * 密码文件生效：conn sys@crmtest /as sysdba
 

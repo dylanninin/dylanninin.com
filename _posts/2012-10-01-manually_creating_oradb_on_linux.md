@@ -2,14 +2,12 @@
 layout: post
 title: Manually Creating Oracle Database On Linux
 category : Oracle
-tags : [Oracle, Database, DBA]
+tags : [Oracle, Database, DBA, Linux]
 ---
 
-##写在前面的话
+今年上半年，由于工作调整，开始接手DBA的工作，负责ERP、数据库、服务器等的管理和维 护工作。在粗略看完Oracle Database 2 Day DBA的官方文档后，结合一些中文书目以及工 作中遇到的问题，对Oracle数据库有了初步的了解。但发现单看中文数目以及解决一个个突 发问题，还远远不够，于是开始阅读2 Day DBA的升级版文档Administrator's Guide，并进 行一些尝试和实践，希望能够有进一步的理解。
 
-今年上半年，由于工作调整，开始接手DBA的工作，负责ERP、数据库、服务器等的管理和维护工作。在粗略看完Oracle Database 2 Day DBA的官方文档后，结合一些中文书目以及工作中遇到的问题，对Oracle数据库有了初步的了解。但发现单看中文数目以及解决一个个突发问题，还远远不够，于是开始阅读2 Day DBA的升级版文档Administrator's Guide，并进行一些尝试和实践，希望能够有进一步的理解。
-
-在Adminstartor's Guide的第二章，讲到了如何使用`CREATE DATABASE`语句手工创建数据库。这个语句比MySQL的复杂多了，涵盖了Oracle数据库最核心的概念，需要有一定的基础知识。按照参考文档的提示进行操作时，还是出现过一些错误，最后参考CSDN上的一篇[博客](http://blog.csdn.net/tianlesoftware/article/details/4680213)进行调整，成功创建了数据库，这里记录如下。
+在Adminstartor's Guide的第二章，讲到了如何使用`CREATE DATABASE`语句手工创建数据 库。这个语句比MySQL的复杂多了，涵盖了Oracle数据库最核心的概念，需要有一定的基础 知识。按照参考文档的提示进行操作时，还是出现过一些错误，最后参考CSDN上的一篇 [博客](http://blog.csdn.net/tianlesoftware/article/details/4680213)进行调整，成 功创建了数据库，这里记录如下。
 
 ##测试环境
 

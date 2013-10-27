@@ -5,9 +5,8 @@ category : Oracle
 tags : [Oracle, Database, DBA]
 ---
 
-##写在前面的话
-
-Oracle Database概念非常多，其中关于SID、NAMES以及监听参数的定义和关系经常让人混淆。在[tianlesoftware](http://blog.csdn.net/tianlesoftware)的博客上，有一篇专门讲解了这些概念，行文思路清晰，概念和实践分析相结合，易于理解；且文中大量引用官方文档，来源可靠，可信度高。作者的博客很值得同行学习和借鉴。
+Oracle Database概念非常多，其中关于SID、NAMES以及监听参数的定义和关系经常让人混
+淆。在[tianlesoftware](http://blog.csdn.net/tianlesoftware)的博客上，有一篇专门 讲解了这些概念，行文思路清晰，概念和实践分析相结合，易于理解；且文中大量引用官 方文档，来源可靠，可信度高。作者的博客很值得同行学习和借鉴。 
 
 由于刚入行不久，秉承实用原则这里仅作粗略了解和记录，详情可以参见博客原文。
 
@@ -39,7 +38,7 @@ Oracle Database概念非常多，其中关于SID、NAMES以及监听参数的定
 
 * `db_name`在数据库内部的表示，创建数据库时用`db_name`结合一种算法生成。
 
-* `dbid`存在于数据文件、控制文件中，表示数据文件的归属，`dbid`唯一。不同数据库`dbid`不同，但`db_name`有可能相同
+* `dbid`存在于数据文件、控制文件中，表示数据文件的归属，`dbid`唯一。不同数据库 `dbid`不同，但`db_name`有可能相同
 
 ####dbid 和 sid
 
@@ -129,8 +128,8 @@ oracle用`sid`和`oracle_home`生成一个key，来创建共享内存。
 ####global_dbname
 
 * 配置静态监听需要使用
-* `global_dbname`是listener对外的连接名称，我们可以写成任意值，客户端配置时，`service_name`需要与`global_dbname`一致
-* 如果是动态监听，因`service_names`由多个，则会注册多个，每个对应着同一个`instance_name`，这样配置任意一个即可访问
+* `global_dbname`是listener对外的连接名称，我们可以写成任意值，客户端配置时， `service_name`需要与`global_dbname`一致
+* 如果是动态监听，因`service_names`由多个，则会注册多个，每个对应着同一个 `instance_name`，这样配置任意一个即可访问
 
 ###4. tnsnames.ora参数
 
@@ -142,7 +141,6 @@ oracle用`sid`和`oracle_home`生成一个key，来创建共享内存。
 ####sid
 
 * 直接指定`instance_name`
-
 
 ##参考
 

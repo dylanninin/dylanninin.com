@@ -2,18 +2,12 @@
 layout: post
 title: Rsync Exception
 category : Linux
-tags : [Linux, Utilities]
+tags : [Linux, Exception]
 ---
 
-[rsync](http://en.wikipedia.org/wiki/Rsync)是Unix/Linux下同步文件的一个高效算法，
-它能同步更新两处计算机的文件与目录，并适当利用查找文件中的不同块以减少数据传输。
-rsync中一项与其他大部分类似程序或协定中所未见的重要特性是镜像是只对有变更的部分
-进行传送。rsync可拷贝/显示目录属性，以及拷贝文件，并可选择性的压缩以及递归拷贝，
-同步速度快。
+[rsync](http://en.wikipedia.org/wiki/Rsync)是Unix/Linux下同步文件的一个高效算法， 它能同步更新两处计算机的文件与目录，并适当利用查找文件中的不同块以减少数据传输。 rsync中一项与其他大部分类似程序或协定中所未见的重要特性是镜像是只对有变更的部分 进行传送。rsync可拷贝/显示目录属性，以及拷贝文件，并可选择性的压缩以及递归拷贝， 同步速度快。
 
-本文主要是记录在工作中使用rsync进行远程同步时遇到的问题及其解决方案，同时向大家
-推荐关于rsync的两篇博客，一篇是酷壳陈皓的[rsync的核心算法](http://coolshell.cn/articles/7425.html)；
-另一篇是51CTO上[抚琴煮酒的CentOS 5.5 下 rsync使用技巧与权限问题解读](http://os.51cto.com/art/201101/243374.htm)。
+本文主要是记录在工作中使用rsync进行远程同步时遇到的问题及其解决方案，同时向大家 推荐关于rsync的两篇博客，一篇是酷壳陈皓的[rsync的核心算法](http://coolshell.cn/articles/7425.html)； 另一篇是51CTO上[抚琴煮酒的CentOS 5.5 下 rsync使用技巧与权限问题解读](http://os.51cto.com/art/201101/243374.htm)。
 
 ##环境
 
@@ -54,8 +48,7 @@ rsync服务端输出日志如下
 
 ###2.name lookup failed for 192.168.0.30: Temporary failure in name resolution
 
-rsync 启用了DNS反向解析，查询不到时，可能需要花很长时间。
-在`/etc/hosts`文件中，添加`192.168.0.30 any.egolife.com` 配置重新启动rynsc服务和客户端脚本，即可正常同步。
+rsync 启用了DNS反向解析，查询不到时，可能需要花很长时间。 在`/etc/hosts`文件中，添加`192.168.0.30 any.egolife.com` 配置重新启动rynsc服务和客户端脚本，即可正常同步。
 
 ##第二次同步异常
 
@@ -133,8 +126,7 @@ rsync服务端日志
 	[root@any rmanbak]# ll -h 20120917_inc0_tfnlf4ok_1_1.bkp
 	-rw-r----- 1 oracle oinstall 4.4G Sep 17 22:21 20120917_inc0_tfnlf4ok_1_1.bkp
 
-这里需要调整rman备份片的大小，限制在500M，实际最大能够正常传输多大的文件尚未明确。
-在rman中设置备份集中备份片的大小
+这里需要调整rman备份片的大小，限制在500M，实际最大能够正常传输多大的文件尚未明确。 在rman中设置备份集中备份片的大小
 
 	[root@any rmanbak]# su - oracle
 	[root@any rmanbak]# rman target/

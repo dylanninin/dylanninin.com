@@ -2,7 +2,7 @@
 layout: post
 title: Oracel DBA
 category: Miscellanies
-tags: [Oracle, Database, Resource]
+tags: [Oracle, Database, DBA, Resource]
 ---
 
 DBA，即Database Administrator，数据库管理员，是负责管理和维护数据库的人。

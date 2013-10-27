@@ -2,20 +2,20 @@
 layout: post
 title: MT Installation II
 category : Blog
-tags : [Blog, Linux]
+tags : [Blog, MovableType]
 ---
 
 ##MovableType 安装记录（二）
 
-接着[上一篇](/blog/2012/09/29/mt_installation.html)继续配置Movable Type。
+接着[上一篇](http://dylanninin.com/blog/2012/09/29/mt_installation.html)继续配置Movable Type。
 
 ##Apache配置
 
 ###配置站点首页
 
-打开`http://dev.egolife.com`时，默认显示为Apache的测试页面。当访问`http://dev.egolife.com/blog`才会显示博客首页。
+打开`http://dev.egolife.com`时，默认显示为Apache的测试页面。当访问 `http://dev.egolife.com/blog`才会显示博客首页。
 
-取消显示Apache测试页面,更改配置`/etc/httpd/conf.d/welcome.conf`,注释掉LocationMatch配置：
+取消显示Apache测试页面,更改配置`/etc/httpd/conf.d/welcome.conf`,注释掉 LocationMatch配置：
 	
 	[root@dev html]# vim /etc/httpd/conf.d/welcome.conf
 	1 #.
@@ -29,9 +29,10 @@ tags : [Blog, Linux]
 	9 # ErrorDocument 403 /error/noindex.html
 	10 #</LocationMatch>
 
-运行`service http reload`命令，重新加载配置后，直接访问主机，则出现的是`/var/www/html`的页面列表信息。
+运行`service http reload`命令，重新加载配置后，直接访问主机，则出现的是 `/var/www/html`的页面列表信息。
 
 ###禁止列表文件
+
 禁止列表信息，需要更改配置`/etc/httpd/conf/httpd.conf`：
 
 	[root@dev html]# vim /etc/httpd/conf/httpd.conf
@@ -67,7 +68,7 @@ tags : [Blog, Linux]
 	346 
 	347 </Directory>
 
-更改配置后，重新加载配置文件，则显示禁止访问，此时可以自定义显示的页面，这里采用软链接的方式。
+更改配置后，重新加载配置文件，则显示禁止访问，此时可以自定义显示的页面，这里采用 软链接的方式。
 
 ###设置软连接
 
@@ -80,7 +81,7 @@ tags : [Blog, Linux]
 	lrwxrwxrwx 1 root root 40 Sep 22 23:58 mt-static -> /var/www/cgi-bin/MTOS-4.38-en/mt-static/
 	drwxr-xr-x 2 apache apache 4096 Sep 23 00:31 server-status
 
-这样访问`http://dev.egolife.com`时，会直接显示博客首页。当然，可以使用URL重写或重定向来实现.
+这样访问`http://dev.egolife.com`时，会直接显示博客首页。当然，可以使用URL重写或 重定向来实现.
 
 ###错误提示页
 

@@ -4,7 +4,6 @@ title: The Zen of Python
 category : Python
 tags : [Python, Easter]
 ---
-{% include JB/setup %}
 
 Part of Python's documentation are the PEPs, or "Python Enhancement Proposals." PEP 20, "The Zen of Python," is something of an [easter egg](http://en.wikipedia.org/wiki/Easter_egg_(media)) hidden in the interpreter (you may have caught us quoting from it in instructional text or hints)
 

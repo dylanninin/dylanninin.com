@@ -2,7 +2,7 @@
 layout: post
 title: MT Installation I
 category : Blog
-tags : [Blog, Linux]
+tags : [Blog, MovableType]
 ---
 
 ##MovableType 安装记录
@@ -102,6 +102,7 @@ tags : [Blog, Linux]
 ##主要错误信息
 
 ###不允许mt符号连接
+
 更改`httpd.conf`中`/var/www/cgi-bin`的配置，启用符号链接，如下:
 	
 	581 #
