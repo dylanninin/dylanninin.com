@@ -5,8 +5,7 @@ category : Miscellanies
 tags : [Network, Exception]
 ---
 
-Today there's a network problem within my [Linode](http://www.linode.com/) VPS. 
-And now this issue has been resolved with its' support.
+Today there's a network problem within my [Linode](http://www.linode.com/) VPS. And now this issue has been resolved with its' support.
 
 ##traceroute within my pc
 
@@ -36,14 +35,14 @@ The last accessible hop is 202.97.33.214:
 	Hostname:	202.97.33.214
 	ISP:	Chinanet Backbone Network
 
-![backbone_of_chinanet](http://dylanninin.com/assets/themes/2013/backbone_of_chinanet.png)
+![backbone_of_chinanet](http://dylanninin.com/assets/themes/images/2013/backbone_of_chinanet.png)
 
 
 ##my ip status
 
 check blacklist status
 
-![blacklist_status](http://dylanninin.com/assets/themes/2013/blacklist_status.png)
+![blacklist_status](http://dylanninin.com/assets/themes/images/2013/blacklist_status.png)
 
 ##traceroute within linode
 

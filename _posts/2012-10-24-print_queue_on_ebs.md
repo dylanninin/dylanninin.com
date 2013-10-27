@@ -15,7 +15,7 @@ tags : [Oracle, EBS, DBA]
 
 Oracle ERP打印队列结构图
 
-![Oracle ERP](/static/img/entry/printer_of_erp.png)
+![Oracle ERP](http://dylanninin.com/assets/themes/images/2012/printer_of_erp.png)
 
 ##打印服务器
 

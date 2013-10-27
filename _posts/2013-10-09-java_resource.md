@@ -11,8 +11,7 @@ tags: [Java, Resource]
 
 之后因工作调整，从小白开始逐步转向Oracle DBA，学习大量的主机、存储、网络、数据库等方面的知识，偶尔也打打杂，不直接参与项目，到现在已经又是一年的光阴了。
 
-在做DBA这一年中，利用业余时间学习了Python，可以动手快速、简洁的实现一些自动化脚本、偶然想法、项目原型或者真正投入使用，很喜欢[The Zen of Python](http://www.python.org/dev/peps/pep-0020/)，也很喜欢“人
-生苦短，我用Python”的格言。
+在做DBA这一年中，利用业余时间学习了Python，可以动手快速、简洁的实现一些自动化脚本、偶然想法、项目原型或者真正投入使用，很喜欢[The Zen of Python](http://www.python.org/dev/peps/pep-0020/)，也很喜欢“人 生苦短，我用Python”的格言。
 
 最近几个月还学习了Ruby，十分喜欢Ruby、Ruby On Rails中随处可见的DSL，也开始折腾Github和Jekyll。
 
@@ -20,8 +19,7 @@ tags: [Java, Resource]
 
 ##基础
 	
-主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/)，
-另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
+主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/)， 另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
 
 [《Thinking in Java 4th》](http://pervasive2.morselli.unimo.it/~nicola/courses/IngegneriaDelSoftware/java/ThinkingInJava.pdf)很经典，可以作参考书，从Java的基础语法到高级特性（面向对象概念、容器、多线程等）都有涉及，但讲述详实，比较厚，不适合快速入门。
 

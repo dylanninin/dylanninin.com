@@ -5,36 +5,23 @@ category : Miscellanies
 tags : [Python, Utilities]
 ---
 
-很早以前就在使用[Lastpass](https://lastpass.com)进行密码管理，如自动生成复杂密码，
-Web页面自动填写和登陆；并且在去年开始付费（目前仅支付一年，主要是因为Android移动
-平台上lastpass免费版使用时间有限，仅16天）。
+很早以前就在使用[Lastpass](https://lastpass.com)进行密码管理，如自动生成复杂密码，Web页面自动填写和登陆；并且在去年开始付费（目前仅支付一年，主要是因为Android移动平台上lastpass免费版使用时间有限，仅16天）。
 
-自[CSDN明文密码泄露](http://coolshell.cn/articles/6193.html)后，密码管理进一步加
-强，主要是加强密码复杂度，并且定期更换密码。很不幸的是，那是我的CSDN账户也在公布
-之列，后来一度想找回，无奈CSDN博客的ID已经从`dylanninin`变为`dylan_ninin`，心中
-还是稍有不悦。
+自[CSDN明文密码泄露](http://coolshell.cn/articles/6193.html)后，密码管理进一步加强，主要是加强密码复杂度，并且定期更换密码。很不幸的是，那是我的CSDN账户也在公布之列，后来一度想找回，无奈CSDN博客的ID已经从`dylanninin`变为`dylan_ninin`，心中还是稍有不悦。
 
-最近在一些项目的测试过程中，发现复杂的密码其实有助于测试用户认证模块中很容易被
-忽视的小问题，尤其是在调用操作系统的命令时。
+最近在一些项目的测试过程中，发现复杂的密码其实有助于测试用户认证模块中很容易被忽视的小问题，尤其是在调用操作系统的命令时。
 
 目前因密码包含特殊字符(如`&`)导致认证异常的情况，已经遇到过两例。
 
-第一例，是在使用Java构建基于Samba文件共享的搜索系统时，因调用Windows系统的
-`net use \\samba_server_ip password /user:username`时，`password`没有加引号，
-导致密码复杂时无法成功认证。
+第一例，是在使用Java构建基于Samba文件共享的搜索系统时，因调用Windows系统的`net use \\samba_server_ip password /user:username`时，`password`没有加引号，导致密码复杂时无法成功认证。
 
-第二例，也是因少了引号，在Linux平台上同步修改LDAP和Samba密码，PHP调用
-`rtrim(shell_exec("/usr/bin/mkntpwd -N $new_pwd"));`，如果`new_pwd`包含`&`符号，
-`mkntpwd`就只能在后台运行，密码也就从`&`处截断了。
+第二例，也是因少了引号，在Linux平台上同步修改LDAP和Samba密码，PHP调用`rtrim(shell_exec("/usr/bin/mkntpwd -N $new_pwd"));`，如果`new_pwd`包含`&`符号，`mkntpwd`就只能在后台运行，密码也就从`&`处截断了。
 
-想想这些问题其实很简单，但也很容易被忽视。当然了，从发现这些问题的测试来看，一定
-复杂度的密码确实起到不少作用，至少一个很容易被忽视的死角马上就暴露出来了。
+想想这些问题其实很简单，但也很容易被忽视。当然了，从发现这些问题的测试来看，一定复杂度的密码确实起到不少作用，至少一个很容易被忽视的死角马上就暴露出来了。
 
 ##程序
 
-因在日常工作中，有一部分是负责用户账号和权限分配，使用Lastpass自动生成密码容易导
-致密码繁多难以管理，且也有泄露的危险。于是动手写了一个简单的自动生成密码工具，
-主要使用Python的random和string标准库。
+因在日常工作中，有一部分是负责用户账号和权限分配，使用Lastpass自动生成密码容易导致密码繁多难以管理，且也有泄露的危险。于是动手写了一个简单的自动生成密码工具，主要使用Python的random和string标准库。
 
 程序主要配置在`passwdgen.py`的`config`中，可以自定义：
 

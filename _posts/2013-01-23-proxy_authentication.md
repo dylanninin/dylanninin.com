@@ -5,9 +5,7 @@ category : Oracle
 tags : [Oracle, Database, DBA, Security]
 ---
 
-在学习[cx_Oracle](http://sourceforge.net/projects/cx-oracle/)访问Oracle数据库时，
-下载作者的源代码，发现作者在测试的数据库脚本中创建用户即使用了代理授权。当时没有
-太注意，最近正好总结作半年以来的工作，想起来就先测试下，以作备忘。
+在学习[cx_Oracle](http://sourceforge.net/projects/cx-oracle/)访问Oracle数据库时， 下载作者的源代码，发现作者在测试的数据库脚本中创建用户即使用了代理授权。当时没有 太注意，最近正好总结作半年以来的工作，想起来就先测试下，以作备忘。
 
 ##代理认证
 
