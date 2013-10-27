@@ -7,7 +7,7 @@ tags : [Blog, Linux]
 
 ##MovableType 安装记录（二）
 
-接着[上一篇](/blog/2012/09/09/mt_installation.html)继续配置Movable Type。
+接着[上一篇](/blog/2012/09/29/mt_installation.html)继续配置Movable Type。
 
 ##Apache配置
 
