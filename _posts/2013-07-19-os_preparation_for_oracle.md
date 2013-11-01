@@ -33,11 +33,13 @@ tags : [Oracle, Database, DBA, Linux]
 
 ###	kernel parameters
 
-* `/proc/sys/.../file`: current value of these parameters; non persistent* `/etc/sysctl.conf`: configure file of these parameters; persistent during each startup* `sysctl -p`: persistent during each startup
+* `/proc/sys/.../file`: current value of these parameters; non persistent * `/etc/sysctl.conf`: configure file of these parameters; persistent during each startup * `sysctl -p`: persistent during each startup 
 
 #### parameters
 
-shared memory, semaphores, file handles parameter, net parameter
+shared memory, semaphores, file handles parameter, net parameter 
+	
+	
     [root@db ~]# sysctl -p
     net.ipv4.ip_forward = 0
     net.ipv4.conf.default.rp_filter = 1
