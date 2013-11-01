@@ -132,81 +132,6 @@ Open `/etc/fstab` file and append config directive:
 
 Save and close the file.
 
-###Mount ISCSI on CentOS
-
-1.discover
-
-	iscsiadm -m discovery -t sendtargets -p 172.29.88.61
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.oemfile
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.oemfile
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.cluster
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.cluster
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.transmission
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.transmission
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.mobile
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.mobile
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.mobilefile
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.mobilefile
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.test
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.test
-	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.erp
-	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.erp
-
-2.iscsid.conf
-
-	vim /etc/iscsi/iscsid.conf
-	. . .
-	# To enable CHAP authentication set node.session.auth.authmethod
-	# to CHAP. The default is None.
-	node.session.auth.authmethod = CHAP                
-	 
-	# To set a CHAP username and password for initiator
-	# authentication by the target(s), uncomment the following lines:
-	node.session.auth.username = backup
-	node.session.auth.password = storageoabak
-
-3.login
-
-	`ll /dev/sd*`
-	brw-rw----. 1 root disk 8, 0 May 29 18:07 /dev/sda
-	brw-rw----. 1 root disk 8, 1 May 29 10:48 /dev/sda1
-	brw-rw----. 1 root disk 8, 2 May 29 10:48 /dev/sda2
-	brw-rw----. 1 root disk 8, 3 May 29 10:48 /dev/sda3
-
-	iscsiadm -m node -T iqn.2000-01.com.synology:themain-2nd.erp -p 172.29.88.61 --login
-	Logging in to [iface: default, target: iqn.2000-01.com.synology:themain-2nd.erp, portal: 172.29.88.61,3260] (multiple)
-	Login to [iface: default, target: iqn.2000-01.com.synology:themain-2nd.erp, portal: 172.29.88.61,3260] successful.
-
-	`ll /dev/sd*`
-	brw-rw----. 1 root disk 8,  0 May 29 18:07 /dev/sda
-	brw-rw----. 1 root disk 8,  1 May 29 10:48 /dev/sda1
-	brw-rw----. 1 root disk 8,  2 May 29 10:48 /dev/sda2
-	brw-rw----. 1 root disk 8,  3 May 29 10:48 /dev/sda3
-	brw-rw----. 1 root disk 8, 16 May 29 18:00 /dev/sdb
-
-4.fdisk,mkfs ...
-
-	fdisk ...
-
-	mkfs ...
-
-	fdisk -l /dev/sdb
-
-	Disk /dev/sdb: 1099.5 GB, 1099511627776 bytes
-	255 heads, 63 sectors/track, 133674 cylinders
-	Units = cylinders of 16065 * 512 = 8225280 bytes
-	Sector size (logical/physical): 512 bytes / 512 bytes
-	I/O size (minimum/optimal): 512 bytes / 512 bytes
-	Disk identifier: 0xc1aa5473
-	
-	   Device Boot      Start         End      Blocks   Id  System
-	/dev/sdb1               1      133674  1073736373+   5  Extended
-	/dev/sdb5               1      133674  1073736342   83  Linux
-
-5.mount
-
-	mount -o acl,rw /dev/sdb5 /data/
-
 ##测试
 
 ###1.关于多重联机
@@ -234,3 +159,6 @@ mount 均采用  `mount -o acl,rw /dev/sdb5 /data` 进行挂载；写数据时�
 ##Reference
 
 * [Linux ISCSI howto](http://www.cyberciti.biz/tips/rhel-centos-fedora-linux-iscsi-howto.html)
+* [AIX 5.3/6.1 ISCSI howto](http://dawangliang.blog.163.com/blog/static/1879031682011543446756/)
+* [AIX 5.3 iSCSI softwre initiator](http://publib.boulder.ibm.com/infocenter/pseries/v5r3/index.jsp?topic=/com.ibm.aix.commadmn/doc/commadmndita/iscsi_config.htm)
+* [AIX 5.3 iSCSI target file reference](http://publib.boulder.ibm.com/infocenter/pseries/v5r3/index.jsp?topic=/com.ibm.aix.commadmn/doc/commadmndita/iscsi_config.htm)
