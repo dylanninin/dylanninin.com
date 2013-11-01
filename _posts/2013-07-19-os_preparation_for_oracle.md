@@ -33,7 +33,10 @@ tags : [Oracle, Database, DBA, Linux]
 
 ###	kernel parameters
 
-* `/proc/sys/.../file`: current value of these parameters; non persistent* `/etc/sysctl.conf`: configure file of these parameters; persistent during each startup* `sysctl -p`: persistent during each startup
+* `/proc/sys/.../file`: current value of these parameters; non persistent* `/etc/sysctl.conf`: configure file of these parameters; persistent during each startup* `sysctl -p`: persistent during each startup
+
+#### parameters
+
 shared memory, semaphores, file handles parameter, net parameter
     [root@db ~]# sysctl -p
     net.ipv4.ip_forward = 0
@@ -91,6 +94,8 @@ shared memory, semaphores, file handles parameter, net parameter
 ### resource limits
 * `/etc/security.conf`: resource limits configuration file
 * `/etc/pam.d/login`: login settings* `ulimit`: utility to check or change resource limits
+#### limits
+
 open file descriptors, number of processes available to a single user, size of the 
 stack segment of the process.
 
