@@ -1,8 +1,8 @@
 ---
 layout: post
-title:
+title: Trace Requests in EBS
 category : Oracle
-tags : [Oracle, DBA]
+tags : [Oracle, DBA, EBS]
 ---
 
 ##Trace File

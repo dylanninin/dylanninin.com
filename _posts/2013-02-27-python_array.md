@@ -1,8 +1,8 @@
 ---
 layout: post
-title:
-category : Oracle
-tags : [Oracle, DBA]
+title: Python Array
+category : Python
+tags : [Python, Libs]
 ---
 
 Help on module array:

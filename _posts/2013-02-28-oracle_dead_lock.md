@@ -1,8 +1,8 @@
 ---
 layout: post
-title:
+title: DeadLock in Oracle Database
 category : Oracle
-tags : [Oracle, DBA]
+tags : [Oracle, Database, DBA]
 ---
 
 ##死锁
