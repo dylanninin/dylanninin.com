@@ -39,7 +39,6 @@ tags : [Oracle, Database, DBA, Linux]
 
 shared memory, semaphores, file handles parameter, net parameter 
 	
-	
     [root@db ~]# sysctl -p
     net.ipv4.ip_forward = 0
     net.ipv4.conf.default.rp_filter = 1
@@ -94,8 +93,8 @@ shared memory, semaphores, file handles parameter, net parameter
     net.core.wmem_max = 1048576
 
 ### resource limits
-* `/etc/security.conf`: resource limits configuration file
-* `/etc/pam.d/login`: login settings* `ulimit`: utility to check or change resource limits
+* `/etc/security.conf`: resource limits configuration file 
+* `/etc/pam.d/login`: login settings * `ulimit`: utility to check or change resource limits 
 #### limits
 
 open file descriptors, number of processes available to a single user, size of the 
