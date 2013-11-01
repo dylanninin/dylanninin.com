@@ -94,8 +94,7 @@ shared memory, semaphores, file handles parameter, net parameter
 
 ### resource limits
 * `/etc/security.conf`: resource limits configuration file 
-* `/etc/pam.d/login`: login settings * `ulimit`: utility to check or change resource limits 
-#### limits
+* `/etc/pam.d/login`: login settings * `ulimit`: utility to check or change resource limits 
 
 open file descriptors, number of processes available to a single user, size of the 
 stack segment of the process.
