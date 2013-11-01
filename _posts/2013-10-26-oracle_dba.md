@@ -26,8 +26,8 @@ DBA的成长不易，DBA要经过入门、初级、中级、高级、资深、�
 * roadmap
 
 	* [Maclean：学习Oracle Database的自由之翼](http://www.askmaclean.com/archives/linked-to-oracle-world.html)
-	* [Tom: the road map to 10g documentation](http://dylanninin.com/assets/themes/images/2013/tom.jpg)
-	* [High Level Vision of DSI](http://dylanninin.com/assets/themes/images/2013/dsi.jpg)
+	* [Tom: the road map to 10g documentation](http://dylanninin.com/assets/images/2013/tom.jpg)
+	* [High Level Vision of DSI](http://dylanninin.com/assets/images/2013/dsi.jpg)
 
 * fundamentals (SQL, PL/SQL, `SQL*Plus`, PL/SQL Developer)
 

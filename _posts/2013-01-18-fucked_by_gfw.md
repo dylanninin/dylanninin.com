@@ -35,14 +35,14 @@ The last accessible hop is 202.97.33.214:
 	Hostname:	202.97.33.214
 	ISP:	Chinanet Backbone Network
 
-![backbone_of_chinanet](http://dylanninin.com/assets/themes/images/2013/backbone_of_chinanet.png)
+![backbone_of_chinanet](http://dylanninin.com/assets/images/2013/backbone_of_chinanet.png)
 
 
 ##my ip status
 
 check blacklist status
 
-![blacklist_status](http://dylanninin.com/assets/themes/images/2013/blacklist_status.png)
+![blacklist_status](http://dylanninin.com/assets/images/2013/blacklist_status.png)
 
 ##traceroute within linode
 

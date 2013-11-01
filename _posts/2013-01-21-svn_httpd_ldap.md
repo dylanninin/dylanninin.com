@@ -7,7 +7,7 @@ tags : [SVN, Apache, LDAP, Linux]
 
 ##Subversion Architecture
 
-![svn_arch](http://dylanninin.com/assets/themes/images/2013/svn_architecture.png)
+![svn_arch](http://dylanninin.com/assets/images/2013/svn_architecture.png)
 
 ##HTTP
 

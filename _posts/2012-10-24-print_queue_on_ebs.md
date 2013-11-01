@@ -15,7 +15,7 @@ tags : [Oracle, EBS, DBA]
 
 Oracle ERP打印队列结构图
 
-![Oracle ERP](http://dylanninin.com/assets/themes/images/2012/printer_of_erp.png)
+![Oracle ERP](http://dylanninin.com/assets/images/2012/printer_of_erp.png)
 
 ##打印服务器
 
@@ -275,7 +275,7 @@ Commands and equivalents
 
 本例中，直接使用操作系统的打印命令，如下：
 
-![printer_driver](http://dylanninin.com/assets/themes/images/2012/checklp.png)
+![printer_driver](http://dylanninin.com/assets/images/2012/checklp.png)
 
 直接调用操作系统的打印命令进行打印，其中arguments内容如下：
 
