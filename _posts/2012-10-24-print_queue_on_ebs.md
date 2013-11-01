@@ -275,7 +275,7 @@ Commands and equivalents
 
 本例中，直接使用操作系统的打印命令，如下：
 
-![printer_driver](http://dylanninin.com/blog/assets/themes/images/2012/printer_driver.png)
+![printer_driver](http://dylanninin.com/assets/themes/images/2012/checklp.png)
 
 直接调用操作系统的打印命令进行打印，其中arguments内容如下：
 
