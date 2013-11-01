@@ -29,7 +29,7 @@ iscsi-initiator-utils RPM package - The iscsi package provides the server daemon
 A note about Debian / Ubuntu Linux
 
 If you are using Debian / Ubuntu Linux install open-iscsi package, enter:
-	
+
 	$ sudo apt-get install open-iscsi
 
 ##CentOS / Red Hat Linux: Install and manage iSCSI Volume
@@ -69,7 +69,7 @@ You may also need to tweak and set other options. Refer to man page for more inf
 ####Step # 2: Discover targets
 
 Now use iscsiadm command, which is a command-line tool allowing discovery and login to iSCSI targets, as well as access and management of the open-iscsi database. If your storage server IP address is 192.168.1.5, enter:
-	
+
 	# iscsiadm -m discovery -t sendtargets -p 192.168.1.5
 
 	# /etc/init.d/iscsid restart
@@ -108,7 +108,7 @@ You can now partition and create a filesystem on the target using usual fdisk an
 	# mke2fs -j -m 0 -O dir_index /dev/sdd1
 
 OR
-	
+
 	# mkfs.ext3 /dev/sdd1
 
 Tip: If your volume is large size like 1TB, run mkfs.ext3 in background using nohup:
@@ -116,7 +116,7 @@ Tip: If your volume is large size like 1TB, run mkfs.ext3 in background using no
 	# nohup mkfs.ext3 /dev/sdd1 &
 
 Mount new partition:
-	
+
 	# mkdir /mnt/iscsi
 	# mount /dev/sdd1 /mnt/iscsi
 
@@ -127,7 +127,7 @@ First make sure iscsi service turned on at boot time:
 	# chkconfig iscsi on
 
 Open `/etc/fstab` file and append config directive:
-	
+
 	/dev/sdd1 /mnt/iscsi ext3 _netdev 0 0
 
 Save and close the file.
@@ -136,7 +136,7 @@ Save and close the file.
 
 1.discover
 
-	# iscsiadm -m discovery -t sendtargets -p 172.29.88.61
+	iscsiadm -m discovery -t sendtargets -p 172.29.88.61
 	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.oemfile
 	169.254.146.25:3260,0 iqn.2000-01.com.synology:themain-2nd.oemfile
 	172.29.88.61:3260,0 iqn.2000-01.com.synology:themain-2nd.cluster
@@ -155,9 +155,7 @@ Save and close the file.
 2.iscsid.conf
 
 	vim /etc/iscsi/iscsid.conf
-
 	. . .
-	 
 	# To enable CHAP authentication set node.session.auth.authmethod
 	# to CHAP. The default is None.
 	node.session.auth.authmethod = CHAP                
@@ -166,21 +164,20 @@ Save and close the file.
 	# authentication by the target(s), uncomment the following lines:
 	node.session.auth.username = backup
 	node.session.auth.password = storageoabak
-	. . .
-	
+
 3.login
 
-	# `ll /dev/sd*`
+	`ll /dev/sd*`
 	brw-rw----. 1 root disk 8, 0 May 29 18:07 /dev/sda
 	brw-rw----. 1 root disk 8, 1 May 29 10:48 /dev/sda1
 	brw-rw----. 1 root disk 8, 2 May 29 10:48 /dev/sda2
 	brw-rw----. 1 root disk 8, 3 May 29 10:48 /dev/sda3
 
-	# iscsiadm -m node -T iqn.2000-01.com.synology:themain-2nd.erp -p 172.29.88.61 --login
+	iscsiadm -m node -T iqn.2000-01.com.synology:themain-2nd.erp -p 172.29.88.61 --login
 	Logging in to [iface: default, target: iqn.2000-01.com.synology:themain-2nd.erp, portal: 172.29.88.61,3260] (multiple)
 	Login to [iface: default, target: iqn.2000-01.com.synology:themain-2nd.erp, portal: 172.29.88.61,3260] successful.
 
-	# `ll /dev/sd*`
+	`ll /dev/sd*`
 	brw-rw----. 1 root disk 8,  0 May 29 18:07 /dev/sda
 	brw-rw----. 1 root disk 8,  1 May 29 10:48 /dev/sda1
 	brw-rw----. 1 root disk 8,  2 May 29 10:48 /dev/sda2
@@ -193,7 +190,7 @@ Save and close the file.
 
 	mkfs ...
 
-	# fdisk -l /dev/sdb
+	fdisk -l /dev/sdb
 
 	Disk /dev/sdb: 1099.5 GB, 1099511627776 bytes
 	255 heads, 63 sectors/track, 133674 cylinders
@@ -208,7 +205,7 @@ Save and close the file.
 
 5.mount
 
-	# mount -o acl,rw /dev/sdb5 /data/
+	mount -o acl,rw /dev/sdb5 /data/
 
 ##测试
 
