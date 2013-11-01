@@ -154,7 +154,7 @@ Save and close the file.
 
 2.iscsid.conf
 
-	# vim /etc/iscsi/iscsid.conf
+	vim /etc/iscsi/iscsid.conf
 
 	. . .
 	 
@@ -168,7 +168,6 @@ Save and close the file.
 	node.session.auth.password = storageoabak
 	. . .
 	
-
 3.login
 
 	# `ll /dev/sd*`
