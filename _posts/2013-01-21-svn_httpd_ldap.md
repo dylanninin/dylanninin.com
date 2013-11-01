@@ -2,7 +2,7 @@
 layout: post
 title: Integration SVN with HTTPD and LDAP
 category : Linux
-tags : [SVN, Apache, LDAP,Linux]
+tags : [SVN, Apache, LDAP, Linux]
 ---
 
 ##Subversion Architecture

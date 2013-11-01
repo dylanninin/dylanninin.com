@@ -2,7 +2,7 @@
 layout: post
 title: A Case of ATO Exception
 category : Oracle
-tags : [Oracle, Database, DBA]
+tags : [Oracle, Database, DBA, EBS]
 ---
 
 ##异常症状

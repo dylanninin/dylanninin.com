@@ -2,7 +2,7 @@
 layout: post
 title: Summary of My Blog
 category : Blog
-tags : [Blog]
+tags : [Blog, MovableType]
 ---
 
 继9月30号作好[本站创建和维护计划](http://dylanninin.com/blog/2012/09/30/blog_schedule.html)后，经过这 两天的折腾，总算完成了一个博客系统的雏形，而且是一个十分朴素的雏形。 

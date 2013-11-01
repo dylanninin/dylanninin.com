@@ -2,7 +2,7 @@
 layout: post
 title: Oracle EBS Adadmin Scripts
 category : Oracle
-tags : [Oracle, EBS, DBA]
+tags : [Oracle, DBA, EBS]
 ---
 
 ## Admin Scripts for instance

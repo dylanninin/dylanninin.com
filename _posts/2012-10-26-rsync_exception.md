@@ -2,7 +2,7 @@
 layout: post
 title: Rsync Exception
 category : Linux
-tags : [Linux, Exception]
+tags : [Linux, Oracle, Exception]
 ---
 
 [rsync](http://en.wikipedia.org/wiki/Rsync)是Unix/Linux下同步文件的一个高效算法， 它能同步更新两处计算机的文件与目录，并适当利用查找文件中的不同块以减少数据传输。 rsync中一项与其他大部分类似程序或协定中所未见的重要特性是镜像是只对有变更的部分 进行传送。rsync可拷贝/显示目录属性，以及拷贝文件，并可选择性的压缩以及递归拷贝， 同步速度快。
