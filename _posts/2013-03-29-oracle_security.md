@@ -9,7 +9,7 @@ tags : [Oracle, DBA]
 
 下图即根据《Oracle 10g DBA手册》整理。
 
-![oracle_database_basic_security.jpg](http://dylanninin/com/assets/images/2013/oracle_database_basic_security.jpg)
+![oracle_database_basic_security.jpg](http://dylanninin.com/assets/images/2013/oracle_database_basic_security.jpg)
 
 ##延伸阅读
 

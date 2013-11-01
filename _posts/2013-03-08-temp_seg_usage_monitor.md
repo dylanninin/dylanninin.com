@@ -106,3 +106,4 @@ create procudure and submit as a job
 ##Reference
 
 * MOS: How to Monitor the usage of temp segment.
+* [Privileges in PL/SQL](http://dylanninin.com/blog/2013/03/07/privileges_in_plsql.html)
