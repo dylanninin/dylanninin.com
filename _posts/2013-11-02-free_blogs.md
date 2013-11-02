@@ -54,7 +54,7 @@ Evernote
 其他
 
 * [Ruby China: 不选择Markdown的理由](http://ruby-china.org/topics/10734)，讲Markdown的坑，用了一年多，我也感觉该换换了。 
-* [Rei](http://blog.chloerei.com/authors/chloerei)是[Writings.io](https://writings.io/)的创建者，不过它[失败了]((http://blog.chloerei.com/articles/79-writings-io-is-failure)),马上就要[关闭](https://writings.io/)；[36氪](http://www.36kr.com/)上的采访[我犯了过早产品化的错误——Writings.io创始人谈Writings.io的关闭](http://www.36kr.com/p/206974.html)。源代码在[Github](https://github.com/chloerei/writings)上。
+* [Rei](http://blog.chloerei.com/authors/chloerei)是[Writings.io](https://writings.io/)的创建者，不过它[失败了]((http://blog.chloerei.com/articles/79-writings-io-is-failure),马上就要[关闭](https://writings.io/)；[36氪](http://www.36kr.com/)上的采访[我犯了过早产品化的错误——Writings.io创始人谈Writings.io的关闭](http://www.36kr.com/p/206974.html)。源代码在[Github](https://github.com/chloerei/writings)上。
 
 ##Blog
 
