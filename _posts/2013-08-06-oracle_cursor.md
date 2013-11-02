@@ -43,4 +43,4 @@ Explicit cursor information is also captured in cursor attributes, which are set
 
 ##Reference
 
-* Oracle Database Administrator'g Guide
+* Oracle Database Administrator's Guide
