@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Sendmail Dovecot Configuration for EBS
+title: Configure Sendmail, Dovecot  for EBS
 category : Oracle
-tags : [Oracle, DBA, EBS, Mail]
+tags : [Oracle, DBA, EBS, Mail, Utilities]
 ---
 
 ##Workflow Notification Mailer

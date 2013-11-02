@@ -2,7 +2,7 @@
 layout: post
 title: Access Dapenti via VPN
 category : Miscellanies
-tags : [Network, Exception]
+tags : [Windows, Network, Exception]
 ---
 
 当登陆VPN时你已经可以正常访问一些在gfw列表中的网站；但很可能国内的一些网站却不能 打开了，比如[打喷嚏](http://dapenti.org)，此时你就需要看下本机的路由设置是否正 确。因为连接VPN后本机的默认路由可能已经更改，此时所有的连接都会经过默认路由出去； 而由于文化、版权等原因，国内很多网站往往是不对境外提供服务的。此时则需要针对这些 网站手动添加路由，这样访问时就不走VPN了；当然这样也可以减少不必要的流量浪费。

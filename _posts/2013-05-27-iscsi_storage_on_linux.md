@@ -2,7 +2,7 @@
 layout: post
 title: Configure iscsi Storage on Linux
 category : Linux
-tags : [Linux, Utilities]
+tags : [Linux, Storage]
 ---
 
 ##ISCSI

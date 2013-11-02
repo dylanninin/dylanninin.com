@@ -2,7 +2,7 @@
 layout: post
 title: The Invalid Object of Oracle Database
 category : Oracle
-tags : [Oracle, Database, DBA]
+tags : [Oracle, Database, DBA, Exception]
 ---
 
 ##异常症状

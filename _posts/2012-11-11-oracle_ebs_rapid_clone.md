@@ -2,7 +2,7 @@
 layout: post
 title: Oracle EBS Rapid Clone
 category : Oracle
-tags : [Oracle, EBS, Database]
+tags : [Oracle, Database, DBA,  EBS]
 ---
 
 ##克隆环境
