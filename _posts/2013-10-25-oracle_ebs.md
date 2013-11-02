@@ -2,7 +2,7 @@
 layout: post
 title: Oracle ERP DBA
 category: Miscellanies
-tags: [Oracle, EBS, Resource]
+tags: [Oracle, DBA, EBS, Resource]
 ---
 
 Oracle EBS全称Oracle E-Business Suite，是有名的[ERP](http://en.wikipedia.org/wiki/Enterprise_resource_planning) 产品之一，其他的还有SAP ERP，用友ERP等，具体参见[List of ERP software packages](http://en.wikipedia.org/wiki/List_of_ERP_software_packages) 。
