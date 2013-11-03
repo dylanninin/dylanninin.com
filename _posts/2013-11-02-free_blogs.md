@@ -40,7 +40,7 @@ tags : [Git, Github, Markdown, Python, Resource]
 * [Git时代的VIM不完全使用教程](http://beiyuu.com/git-vim-tutorial/)，介绍了Vim的基本用法，相关资料；重点在插件管理工具[Vundle](https://github.com/gmarik/vundle)，结合Git，就类似Python的PIP、Ruby的Gem了，十分简便。补充下，这个人的博客风格也很简洁、漂亮。
 * [Notepad++](http://notepad-plus-plus.org/)，Markdown语法熟悉后，在日常学习工作时，多文件编辑会频繁，这时使用Notepad++占用内存小，也很方便。
 
-更多编辑器参见：[阳志平：Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html)。
+更多编辑器参见：[阳志平：Markdown写作浅谈](http://www.yangzhiping.com/tech/r-markdown-knitr.html)，[阳志平：Markdown生态链整理](http://www.yangzhiping.com/tech/markdown-ecosystem.html)。
 
 Evernote
 
@@ -79,7 +79,7 @@ Dropbox
 
 ##About Me
 
-我写博客起于2012年9月底，至今一年有余，但积累少，输出少，也无法大方厥词，无奈之下只好用工作中累积的一些Note、Log来充数。
+我写博客起于2012年9月底，至今一年有余，但积累少，输出少，也无法大放厥词，无奈之下只好用工作中累积的一些Note、Log来充数。
 
 * 2012-10-1 ~ 2013-10-1 使用[Linode VPS](http://www.linode.com/)，刚好一年到期。博客程序为[MovableType](http://www.movabletype.org/)，之所以没有选择[Wordpress](wordpress.org)，是受[阮一峰](http://www.ruanyifeng.com/)影响，详见[四种Blog程序](http://www.ruanyifeng.com/blog/2004/01/blog.html)，[Wordpress和MovableType的比较](http://www.ruanyifeng.com/blog/2007/04/wordpress_vs_movable_type.html)。当时的博客计划见[Blog Schedule](http://dylanninin.com/blog/2012/09/30/blog_schedule.html)。
 * 2013-7月初  有个小插曲，自学Python接触的第一个Web框架的[Web.py](http://webpy.org/)的创始人[Aaron Swartz](http://www.aaronsw.com/)自杀了，他也是Markdown的设计者之一。作为敬意，用[Web.py](http://webpy.org/)写了一个简单的博客程序，渲染Markdown生成HTML，放在[Github](https://github.com/dylanninin/blog)上，现在因VPS到期，也没有提供在线预览，缘起见[Aaron Swartz Commits Suidice](http://dylanninin.com/blog/2013/01/12/aaron_swartz_commits_suidice.html)。关于Aaron Swartz见[Fenng](http://dbanotes.net/siteinfo.html)的介绍[少年心气 － 艾伦·斯沃兹(Aaron Swartz) 的传奇](http://dbanotes.net/geek/aaron-swartz_smells-like-teen-spirit.html)。
