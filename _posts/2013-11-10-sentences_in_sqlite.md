@@ -7,7 +7,7 @@ tags : [SQLite, Rails]
 
 拖同学和朋友帮忙，最近看Rails，第一份教材自然是[Agile Web Development with Rails 4](http://book.douban.com/subject/24718727/)。
 
-其中谈到SQLite 3是Rails的默认数据库，使用SQLite省去了安装和创建数据库、创建账户分、分配权限等步骤，可以使开发人员的精力集中在项目开发上；等到部署和投入使用时，再根据应用和业务特点选择合适的数据库产品，此时SQLite就不一定适合了。
+其中谈到SQLite 3是Rails的默认数据库，使用SQLite省去了安装和创建数据库、创建账户、分配权限等步骤，可以使开发人员的精力集中在项目开发上；等到部署和投入使用时，再根据应用和业务特点选择合适的数据库产品，此时SQLite就不一定适合了。
 
 比起SQLite这类嵌入式数据库，常见的CS架构的数据库产品的安装、配置、使用、维护等一般是非常耗时的，此时可能需要一个专职的DBA来支撑，安装数据库软件、创建数据库、创建用户、分配权限等看似很简单，但看看[OS Preparation for Oracle Database](http://dylanninin.com/blog/2013/07/19/os_preparation_for_oracle.html)、
 [Manually Creating Oracle Database On Linux](http://dylanninin.com/blog/2012/10/01/manually_creating_oradb_on_linux.html)、[Users, Roles, Privileges in Oracle Database](http://dylanninin.com/blog/2013/03/07/user_roles_privileges.html)就知道这些步骤有多么复杂了。
