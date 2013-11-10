@@ -9,9 +9,7 @@ tags : [SQLite, Rails]
 
 其中谈到SQLite 3是Rails的默认数据库，使用SQLite省去了安装和创建数据库、创建账户、分配权限等步骤，可以使开发人员的精力集中在项目开发上；等到部署和投入使用时，再根据应用和业务特点选择合适的数据库产品，此时SQLite就不一定适合了。
 
-比起SQLite这类嵌入式数据库，常见的CS架构的数据库产品的安装、配置、使用、维护等一般是非常耗时的，此时可能需要一个专职的DBA来支撑，安装数据库软件、创建数据库、创建用户、分配权限等看似很简单，但看看[OS Preparation for Oracle Database](http://dylanninin.com/blog/2013/07/19/os_preparation_for_oracle.html)、
-[Manually Creating Oracle Database On Linux](http://dylanninin.com/blog/2012/10/01/manually_creating_oradb_on_linux.html)、[Users, Roles, Privileges in Oracle Database](http://dylanninin.com/blog/2013/03/07/user_roles_privileges.html)就知道这些步骤有多么复杂了。
-对于适合Rails开发的Mac、Ubuntu本本来说，运行Oracle这类数据库实在太暴殄天物，估计没人干这事儿吧！此时选择SQLite是多么的合适，不需要单独运行的数据库，也不需要额外的网络配置。Rails选择SQLite作为默认的数据库可以说是它宣称"Agile"的一个有力例证。
+比起SQLite这类嵌入式数据库，常见的CS架构的数据库产品的安装、配置、使用、维护等一般是非常耗时的，此时可能需要一个专职的DBA来支撑，安装数据库软件、创建数据库、创建用户、分配权限等看似很简单，但看看[OS Preparation for Oracle Database](http://dylanninin.com/blog/2013/07/19/os_preparation_for_oracle.html)、 [Manually Creating Oracle Database On Linux](http://dylanninin.com/blog/2012/10/01/manually_creating_oradb_on_linux.html)、[Users, Roles, Privileges in Oracle Database](http://dylanninin.com/blog/2013/03/07/user_roles_privileges.html)就知道这些步骤有多么复杂了。 对于适合Rails开发的Mac、Ubuntu本本来说，运行Oracle这类数据库实在太暴殄天物，估计没人干这事儿吧！此时选择SQLite是多么的合适，不需要单独运行的数据库，也不需要额外的网络配置。Rails选择SQLite作为默认的数据库可以说是它宣称"Agile"的一个有力例证。 
 
 旧习难改，忍不住去看了下SQLite的介绍，设计哲学，SQL教程，日常使用以及开发教程，不得不说，[The Definitive Guide to SQLite](http://book.douban.com/subject/5392299/)是一本好书，概念阐述得清晰到位，配图也很经典，让人真正体会到什么是一图胜万言。
 
