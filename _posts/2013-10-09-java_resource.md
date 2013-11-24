@@ -15,7 +15,7 @@ tags: [Java, Resource]
 
 最近几个月还学习了Ruby，十分喜欢Ruby、Ruby On Rails中随处可见的DSL，也开始折腾Github和Jekyll。
 
-今天有同学问起Java学习的一些推荐资料，乘此机会正好整理一份，方便以后参考，以下是自己看过和值得推荐的一些资料清单。
+今天有同学问起Java学习的一些推荐资料，乘此机会正好整理一份，方便以后参考，以下是自己看过和值得推荐的一些资料清单；另外，专门建了一个豆列[java resource](http://book.douban.com/doulist/3016092/)。
 
 ##基础
 	
