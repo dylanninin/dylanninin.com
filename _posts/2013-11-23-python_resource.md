@@ -52,6 +52,8 @@ tags: [Python, Libs, NoSQL, Resource]
 
 ###入门和基础
 
+Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](https://wiki.python.org/moin/Python2orPython3)。初学者不用考虑这个问题，可以从Python 2.x入门，之后再讨论会多一些理性。
+
 * [洪强宁：Python于Web 2.0网站的应用](http://www.slideshare.net/hongqn/qcon2010-3881323)：豆瓣网洪强宁在QCon北京2010中的技术分享，若不能访问，请自备梯子；另外，豆瓣的[阿北](http://www.douban.com/people/ahbei/)很值得关注。
 
 * [A Byte of Python](http://swaroopch.com/notes/python/)：即简明Python教程，边看边练习就对Python有基本的了解，可以轻松存活。
@@ -134,6 +136,8 @@ Flask is called a microframework because it keeps the core simple but extensible
 
 * [Python Weekly](http://www.pythonweekly.com/)：每周更新，包括Python相关的文章、教程、演讲、书籍、项目、工作等。
 * [Pycoder's Weekly](http://www.pycoders.com/)：与Python Weekly类似，两者可以互为补充，了解过去一周动态。
+* [码农周刊](http://weekly.manong.io/): [developerWorks](http://weibo.com/developerworks)出品的周刊，来自国人的分享。可以先看[为什么要做《码农周刊》？](http://blog.manong.io/why-create-a-weekly-newsletter-for-programmers/)；接着[《码农周刊》用到的一些技术](http://blog.manong.io/technologies-we-use/)；
+再接着[周刊回顾](http://weekly.manong.io/issues/)。
 
 ##Reference
 
