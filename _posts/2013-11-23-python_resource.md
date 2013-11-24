@@ -137,7 +137,7 @@ Flask is called a microframework because it keeps the core simple but extensible
 * [Python Weekly](http://www.pythonweekly.com/)：每周更新，包括Python相关的文章、教程、演讲、书籍、项目、工作等。
 * [Pycoder's Weekly](http://www.pycoders.com/)：与Python Weekly类似，两者可以互为补充，了解过去一周动态。
 * [码农周刊](http://weekly.manong.io/): [developerWorks](http://weibo.com/developerworks)出品的周刊，来自国人的分享。可以先看[为什么要做《码农周刊》？](http://blog.manong.io/why-create-a-weekly-newsletter-for-programmers/)；接着[《码农周刊》用到的一些技术](http://blog.manong.io/technologies-we-use/)；
-再接着[周刊回顾](http://weekly.manong.io/issues/)。
+再接着[周刊回顾](http://weekly.manong.io/issues/)。这里不仅仅是Python。
 
 ##Reference
 
