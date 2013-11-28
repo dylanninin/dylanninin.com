@@ -28,7 +28,7 @@ tags: [Python, Libs, NoSQL, Resource]
 
 ##为什么是Python
 
-前段时间写[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)时，稍微概括了下自己的工作，这里再提一下：我是一枚Java攻城狮，工作两年多，主要做[Java Web](http://dylanninin.com/blog/2013/10/09/java_resource.html)开发，期间转去做了一年多的[Oracle DBA](http://dylanninin.com/blog/2013/10/26/oracle_dba.html)，维护[Oracle EBS](http://dylanninin.com/blog/2013/10/25/oracle_ebs.html)，也当过[Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)。似乎涉猎的东西太多太浅，有点样样稀松的嫌疑；但有些东西确实不便与外人道，自己知道就好。
+前段时间写[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)时，稍微概括了下自己的工作，这里再提一下：我是一枚Java攻城狮，工作两年多，主要做[Java Web](http://dylanninin.com/blog/2013/10/09/java_resource.html)开发，期间转去做了一年多的[Oracle DBA](http://dylanninin.com/blog/2013/10/26/oracle_dba.html)，维护[Oracle EBS](http://dylanninin.com/blog/2013/10/25/oracle_ebs.html)，也当过[Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)。似乎涉猎的东西太多太浅，有点样样稀松的嫌疑。
 
 那么，为什么要学Python呢？我觉得可以先看看Peter的[Teach Yourself Programming in Ten Years](http://www.norvig.com/21-days.html)，中文翻译见[十年学会编程](http://daiyuwen.freeshell.org/gb/misc/21-days-cn.html)。
 
