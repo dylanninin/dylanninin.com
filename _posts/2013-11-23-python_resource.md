@@ -44,7 +44,7 @@ tags: [Python, Libs, NoSQL, Resource]
 
 有了上面的准则，我推荐的第一个编程语言是[Python](http://python.org/)或[Scheme](http://www.schemers.org/)。因人而异，还有其它好的选择。如果你的年纪是10岁以下，你可能更喜欢Alice。关键是你要选择并开始实践。
 
-正如文中提到的一样，我学习Python很大一部分原因就是朋友的介绍；经过一些练习之后，你会发现自己越来越喜欢Python的简洁。印象最深的一次，要属部门一次关于[Web Service](http://en.wikipedia.org/wiki/Web_service)的技术交流会，主持人用Java来演示[XML RPC](http://en.wikipedia.org/wiki/XML-RPC)、[JSON RPC](http://en.wikipedia.org/wiki/JSON-RPC)、[SOAP](http://en.wikipedia.org/wiki/SOAP)，不说混杂着各种[Annoation](http://en.wikipedia.org/wiki/Java_annotation)，连这些协议都未所有触及，就疯狂的演示各种语言的客户端程序了。鉴于此，我花了几天时间看了下wiki，然后用Python做了几个原型，还附加地看了[REST](http://en.wikipedia.org/wiki/Representational_state_transfer)，这时你会发现用Python来解释会更加简明，这大概就是[奥卡姆剃刀](http://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80)所讲的简单有效原理吧。
+正如文中提到的一样，我学习Python很大一部分原因就是朋友的介绍；经过一些练习之后，你会发现自己越来越喜欢Python的简洁。印象最深的一次，要属部门一次关于[Web Service](http://en.wikipedia.org/wiki/Web_service)的技术交流会，主持人用Java来演示[XML RPC](http://en.wikipedia.org/wiki/XML-RPC)、[JSON RPC](http://en.wikipedia.org/wiki/JSON-RPC)、[SOAP](http://en.wikipedia.org/wiki/SOAP)，不说混杂着各种[Annotation](http://en.wikipedia.org/wiki/Java_annotation)，连这些协议都未所有触及，就疯狂的演示各种语言的客户端程序了。鉴于此，我花了几天时间看了下wiki，然后用Python做了几个原型，还附加地看了[REST](http://en.wikipedia.org/wiki/Representational_state_transfer)，这时你会发现用Python来解释会更加简明，这大概就是[奥卡姆剃刀](http://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80)所讲的简单有效原理吧。
 
 ##一点Python编程资料
 
