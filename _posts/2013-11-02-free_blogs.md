@@ -15,9 +15,9 @@ tags : [Git, Github, Markdown, Python, Resource]
 
 ##Git
 
-* [Pro Git](http://git-scm.com/book)，Git深入浅出教程，[中文版](http://git-scm.com/book/zh)。不过[git-scm](http://git-scm.com)被blocked了，不信你试试。
-* [Git Internals PDF](https://github.com/pluralsight/git-internals-pdf)，来自[Peepcode](http://peepcode.com/products/git-internals-pdf)的开源书籍。
-* [Git Reference](http://gitref.org/)，Git参考。
+* [Pro Git](http://git-scm.com/book)，Git深入浅出教程，[中文版](http://git-scm.com/book/zh)。不过[git-scm](http://git-scm.com)被blocked了，不信你试试。这是一本开源的书籍，源代码见[Pro Git on Github](https://github.com/progit/progit)。
+* [Git Internals PDF](https://github.com/pluralsight/git-internals-pdf)，来自[Peepcode](http://peepcode.com/products/git-internals-pdf)的开源书籍，源代码已经放在Github。
+* [Git Reference](http://gitref.org/)，Git参考手册。
 * [Linus讲解git](http://www.youtube.com/watch?v=4XpnKHJAok8)，Google大会演讲，Linus介绍他创造git的原因，对比了git和svn。
 
 ##Markdown
