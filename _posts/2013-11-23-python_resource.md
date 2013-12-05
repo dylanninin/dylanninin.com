@@ -117,7 +117,7 @@ Python的Web框架众多，见[Web Frameworks for Python](https://wiki.python.or
 * [Flask](http://flask.pocoo.org/)：一句话介绍"Flask is a lightweight web application framework written in Python and based on the Werkzeug WSGI toolkit and Jinja2 template engine. It is BSD licensed.
 Flask is called a microframework because it keeps the core simple but extensible"。因为工作变动，练习过一段时间的Flask，以便熟悉开发的工具链；如果没有Rails，我想这才是自己首选的Web开发框架: simple but extensible and for fun。实战教程[The Flask Mega-Tutorial](http://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)。
 
-* [Tornado](http://www.tornadoweb.org/en/stable/):来自[FriendFeed](http://friendfeed.com/)的异步框架，有点类似Web.py，FriendFeed被Facebook收购后开放了源代码，见[Tornado on Github](https://github.com/facebook/tornado)。一句话介绍"Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed"。
+* [Tornado](http://www.tornadoweb.org/en/stable/):来自[FriendFeed](http://friendfeed.com/)的异步框架，FriendFeed被Facebook收购后开放了源代码，见[Tornado on Github](https://github.com/facebook/tornado)。一句话介绍"Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed"。Tornado主要特点是[non-blocking](http://en.wikipedia.org/wiki/Non-blocking_I/O)，如果你想开发[real-time](http://en.wikipedia.org/wiki/Real-time_web)的Web应用，Tornado是一个不错的选择。
 
 * [Django](https://www.djangoproject.com/)：一句话介绍"Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design."，接触不多，作为全栈式框架，听说它的组件都是Made in Django。更多资料见[Django资料](http://haoluobo.com/trac/wiki/Django)。
 
