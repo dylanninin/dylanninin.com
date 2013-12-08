@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summary of My Blog
-category : Blog
+category : Miscellanies
 tags : [Blog, MovableType]
 ---
 

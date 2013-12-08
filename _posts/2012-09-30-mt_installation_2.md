@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MT Installation II
-category : Blog
+category : Miscellanies
 tags : [Blog, MovableType]
 ---
 

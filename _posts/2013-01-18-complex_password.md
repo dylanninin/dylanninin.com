@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Complex Password Utility
-category : Miscellanies
+category : Dev
 tags : [Python, Utilities]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oracel DBA
-category: Miscellanies
+categories: [Oracle, Database, Resource]
 tags: [Oracle, Database, DBA, Resource]
 ---
 

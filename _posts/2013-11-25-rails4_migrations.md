@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrations in Rails 4
-category: ruby
+category: Ruby
 tags: [Ruby, Rails, Rake, Database]
 ---
 

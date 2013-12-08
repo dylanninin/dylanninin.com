@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Breathe Still and Freely
-category : Life
-tags : [Blog, People, Music]
+category : Miscellanies
+tags : [People, Music]
 ---
 
 2012年12月29号晚，给一个高中同学打电话，聊了会儿天，得知病情恢复得不错，有说有笑，精神状态也不错。那时感觉一切正朝着良好的方向发展，尽管她已经接受治疗近三年。

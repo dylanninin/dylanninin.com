@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Python Resource
-category: Miscellanies
-tags: [Python, Libs, NoSQL, Resource]
+categories: [Python, Resource]
+tags: [Python, Libs, SQL, NoSQL, Web, Resource]
 ---
 
 [Python](http://www.python.org/)是在工作期间零零碎碎学习起来的。当时正值部门申购图书，鉴于Python的动态、快速等特性，就申请买了一本[《Python核心编程》](http://book.douban.com/subject/3112503/)，内容可谓全面，但翻译实在太差，有些概念看了几遍也没弄清楚，所以只匆匆翻阅完了解一个大概。

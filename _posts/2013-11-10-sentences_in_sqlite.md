@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sentences in SQLite 3
-category : Miscellanies
-tags : [SQLite, Rails]
+category : Database
+tags : [SQLite, Rails, Database]
 ---
 
 拖同学和朋友帮忙，最近看Rails，第一份教材自然是[Agile Web Development with Rails 4](http://book.douban.com/subject/24718727/)。

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Oracle ERP DBA
-category: Miscellanies
+categories: [Oracle, Resource]
 tags: [Oracle, DBA, EBS, Resource]
 ---
 

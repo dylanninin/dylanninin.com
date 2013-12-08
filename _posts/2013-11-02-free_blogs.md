@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Free Blog with Github Pages
-category : Miscellanies
-tags : [Git, Github, Markdown, Python, Resource]
+category : Resource
+tags : [Git, Github, Markdown, Blog, Resource]
 ---
 
 ##Github

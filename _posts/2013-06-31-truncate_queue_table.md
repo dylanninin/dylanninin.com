@@ -2,7 +2,7 @@
 layout: post
 title: Truncate Queue Table in Oracle EBS
 category : Oracle
-tags : [Oracle, Database, DBA, EBS, Excepiton]
+tags : [Oracle, Database, DBA, EBS, Exception]
 ---
 
 ##Truncate Table

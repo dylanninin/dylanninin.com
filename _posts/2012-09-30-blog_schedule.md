@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blog Schedule
-category : Blog
+category : Miscellanies
 tags : [Blog]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MySQL DBA in 20 Days
-category : MySQL
+category : Database
 tags : [DBA, MySQL]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java Resource
-category: Miscellanies
+categories: [Resource, Java]
 tags: [Java, Resource]
 ---
 

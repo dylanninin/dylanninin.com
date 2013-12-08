@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pastime Paradise
-category : Life
+category : Miscellanies
 tags : [Music]
 ---
 
