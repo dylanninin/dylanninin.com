@@ -68,6 +68,7 @@ Github Pages
 
 * [阳志平：理想的写作环境：Git + Github + Markdown + Jekyll](http://www.yangzhiping.com/tech/writing-space.html)
 * [阮一峰：使用Github Pages搭建免费的、无限流量的Blog](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+* [BeiYuu：使用Github Pages建独立博客](http://beiyuu.com/github-pages/)
 * [Github Pages Help](https://help.github.com/categories/20/articles)
 * [Official Jekyll Site](http://jekyllrb.com/docs/home/)
 * [jekyll-bootstrap](http://jekyllbootstrap.com/) 减少折腾过程，可以快速创建Github Pages博客。
