@@ -155,6 +155,6 @@ AI的奠基论文。不过我没读过。
 
 作者不用介绍了吧？这篇文章里介绍的Unix特性早为人熟知。不过第八部分(VIII Perspective)讨论了作者的设计理念，仍然值得一读。
 
-Reference:
+##Reference
 
 * [g9：计算机科学经典论文](http://blog.csdn.net/g9yuayon/article/details/1512851)
