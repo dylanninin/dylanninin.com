@@ -7,7 +7,7 @@ tags : [Python, People]
 
 学习Python的第一个Web框架就是[web.py](http://webpy.org/)，没想到它的作者Aaron Swartz已经于2013年1月11日自杀。
 
-2012年年末计划用Python将此博客重写，其中Web框架经过一翻[选型](http://wiki.woodpecker.org.cn/moin/PyWebFrameList)，便确定使用[web.py](http://webpy.org/)。本打算利用周末时间，希望能在年前完成，但因迫近年关诸事繁忙，现在才刚刚搭建起基本的项目框架。真是诸行无常，现在唯一能纪念的，就是作为一个程序员，学习吸收Aaron Swartz的思想，尽快的完成这个项目，并发布到[github](http://github.com/)，也算是对web.py的一种推介，对Aaron Swartz的一种追思。
+2012年年末计划用Python将此博客重写，其中Web框架经过一翻[选型](http://wiki.woodpecker.org.cn/moin/PyWebFrameList)，便确定使用[web.py](http://webpy.org/)。本打算利用周末时间，希望能在年前完成，但因迫近年关诸事繁忙，现在才刚刚搭建起基本的项目框架。真是诸行无常，现在唯一能纪念的，就是作为一个程序员，学习吸收Aaron Swartz的思想，尽快的完成这个项目，并发布到[github](http://github.com/)，也算是对web.py的一种推介，对Aaron Swartz的一种追思。关于Aaron Swartz见[Fenng](http://dbanotes.net/siteinfo.html)的介绍[少年心气 － 艾伦·斯沃兹(Aaron Swartz) 的传奇](http://dbanotes.net/geek/aaron-swartz_smells-like-teen-spirit.html)。
 
 [@程序员杂志](http://e.weibo.com/programmermag)：
 震惊！Aaron Swartz自杀身亡，年仅26。他是Reddit的联合创始人，web.py的设计者，14岁参与创造了RSS 1.0规范，又与John Gruber共同设计了Markdown。2011年曾因下载480万篇JSTOR学术论文而被捕。[http://t.cn/zjrzsyb](http://t.cn/zjrzsyb)
