@@ -29,6 +29,14 @@
     <h4>Published</h4>
     <div class="date"><span>{{ page.date | date_to_long_string }}</span></div>
 
+  {% unless page.categories == empty %}
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    {% assign categories_list = page.categories %}
+    {% include JB/categories_list %}
+    </ul>
+  {% endunless %} 
+
   {% unless page.tags == empty %}
     <h4>Tags</h4>
     <ul class="tag_box">
