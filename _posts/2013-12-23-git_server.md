@@ -233,7 +233,7 @@ For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Gi
 
 ##Others
 
-* Local Repositories: Interally supported as Git is designed for distributed development.
+* Local Repositories: Internally supported as Git is designed for distributed development.
 
 * [GitLab](https://github.com/gitlabhq/gitlabhq): Project management and code hosting application powered by Ruby on Rails.
 
