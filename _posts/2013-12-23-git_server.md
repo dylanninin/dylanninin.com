@@ -203,7 +203,7 @@ Shell into the machine will get a login rejection:
 	fatal: Interactive git shell is not enabled.
 	hint: ~/git-shell-commands should exist and have read and execute access.
 
-On client:
+Client side:
 
 	$ ssh git@192.168.1.111
 
