@@ -245,3 +245,5 @@ For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Gi
 
 * [Git on the Server](http://www.git-scm.com/book/en/Git-on-the-Server)
 * [Free Blog with Github Pages](http://dylanninin.com/blog/2013/11/02/free_blogs.html)
+* [SSH Security Introduction on Linux](http://dylanninin.com/blog/2012/10/08/ssh_on_linux.html)
+* [Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)
