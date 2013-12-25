@@ -41,7 +41,7 @@ tags: [Java, Resource]
 
 并发编程：参考[《Java Concurrency in Practice》](http://cs.famaf.unc.edu.ar/~nicolasw/Docencia/PCeJ/jcip.pdf)，熟悉Java的并发模型和机制，有助于设计和编写并发性能良好的程序。
 
-经验规则：参考[《Effective Java》](http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf),熟悉常见问题的解决方案，有助于编写高效、健壮、清晰的代码。
+经验规则：参考[《Effective Java》](http://uet.vnu.edu.vn/~chauttm/e-books/java/Effective.Java.2nd.Edition.May.2008.3000th.Release.pdf)，熟悉常见问题的解决方案，有助于编写高效、健壮、清晰的代码。
 
 Java解惑：参考[《Java Puzzles》](http://www.javapuzzlers.com/)，熟悉Java或其类库的陷阱和缺陷而导致的bug，可以帮助了解实现细节。
 
@@ -55,7 +55,7 @@ JVM：参考[《The JVM Specification》](http://docs.oracle.com/javase/specs/jv
 
 ####1.前端
 
-HTML/CSS/JS：这些是基础，BS架构的应用离不开
+HTML/CSS/JS：这些是基础，BS架构的应用离不开。
 
 ####2.基础
 
@@ -85,9 +85,9 @@ IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclips
 
 ##其他
 
-UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.com/tools/newindex1.htm)。从不同维度和层次对项目进行建模（分析和设计），有助于熟悉项目的整体架构。
+UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.com/tools/newindex1.htm)。从不同维度和层次对项目进行建模（分析和设计），有助于熟悉项目的整体架构。我用得比较多的是[StarUML](staruml.sourceforge.net/‎)，现在也有很多Web版的UML工具，推荐[LucidChart](https://www.lucidchart.com/)，Google Docs现在也支持LucidChart。
 
-我用得比较多的是[StarUML](staruml.sourceforge.net/‎)，现在也有很多Web版的UML工具，推荐[LucidChart](https://www.lucidchart.com/)，Google Docs现在也支持LucidChart。
+社区：[iteye](http://www.iteye.com/)，原名JavaEye，由[范凯Robbin](http://robbinfan.com/blog/28/about-robbin)创立，后被CSDN收购，随后[JavaEye被迫改名](http://www.csdn.net/article/2011-04-02/295196)。JavaEye可以说是国内最好的Java社区，虽不是资深用户，但深爱它的[资讯月刊](http://www.iteye.com/news/monthly)，可以开阔视野。另外，[JavaEye后来从Java改用Rails进行了重写](http://robbin.iteye.com/blog/969154)，;-)。
 
 ##参考
 	
@@ -114,6 +114,6 @@ UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.c
 * [Java SE5 API](http://docs.oracle.com/javase/1.5.0/docs/api/), [Java SE6 API](http://docs.oracle.com/javase/6/docs/api/)
 * [Apache Tomcat 6](http://tomcat.apache.org/tomcat-6.0-doc/index.html)
 * [UML](http://www.uml.org/)
-* [陈皓 Java数据Top10](http://coolshell.cn/articles/14.html)
+* [陈皓 Java图书Top10](http://coolshell.cn/articles/14.html)
 * [MyEclipse10优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)
 * [Google Drive](https://drive.google.com/folderview?id=0B_BiAoqYvwURUnVISmVDX3hZTGc&usp=sharing)
