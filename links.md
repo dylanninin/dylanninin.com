@@ -12,7 +12,7 @@ group: navigation
 * [Startup News](http://news.dbanotes.net/)
 * [Reddit](http://www.reddit.com/)
 * [Stackoverflow](http://stackoverflow.com/)
-* [Quara](http://www.quora.com/)
+* [Quora](http://www.quora.com/)
 * [Twitter](http://twitter.com/)
 * [新浪微博](http://weibo.com/)
 * [知乎](http://www.zhihu.com/)
@@ -31,10 +31,13 @@ group: navigation
 * [范凯robbin](http://robbinfan.com/)
 * [刘未鹏MindHacks](http://mindhacks.cn/)
 * [顾森Matrix67](http://www.matrix67.com/blog/)
+* [陶哲轩Terrytao](http://terrytao.wordpress.com/)
 * [王垠](http://www.yinwang.org/)
 * [徐宥](http://blog.youxu.info)
 * [霍炬](http://blog.devep.net/)
 * [阳志平](http://www.yangzhiping.com/)
+* [幻風閣kentzhu](http://ikent.me/)
+* [Timyang](http://timyang.net/)
 * [闾丘露薇](http://www.my1510.cn/author.php?roseluqiu)
 
 ##Communities
