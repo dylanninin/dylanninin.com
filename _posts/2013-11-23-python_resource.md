@@ -62,7 +62,7 @@ Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](
 
 * [Python Documentation](http://www.python.org/doc/)：Python在线文档，若嫌枯燥，可以直接看[Python Standard Lib](http://docs.python.org/2/library/)。
 
-* [42区：python入门指引](http://matrix.42qu.com/10757179)：江湖人称[张教主](http://zuroc.42qu.com/)的Python入门指引，除开[《Python核心编程》](http://book.douban.com/subject/3112503/)。严格来说，这是张教主的一份Python资料索引。
+* [42区：python入门指引](http://matrix.42qu.com/10757179)：江湖人称[张教主](http://zuroc.42qu.com/)的Python资料索引。
 
 * [CS61A: SICP with Python](http://www-inst.eecs.berkeley.edu/~cs61a/fa11/61a-python/content/www/index.html)：作为计算机相关人士，[SICP](http://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs)都不了解，实在很惭愧，所以来还债了。这应该是起源于[MIT的SICP](http://mitpress.mit.edu/sicp/)教程，一个用Python，一个用Scheme。
 
