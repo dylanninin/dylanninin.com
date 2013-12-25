@@ -21,7 +21,7 @@ group: navigation
 
 ##Blogs
 
-* [Paul Grapham](http://www.paulgraham.com/)
+* [Paul Graham](http://www.paulgraham.com/)
 * [Joel Spolsky](http://www.joelonsoftware.com/)
 * [Peter Norvig](http://norvig.com/)
 * [阮一峰](http://www.ruanyifeng.com/home.html)
