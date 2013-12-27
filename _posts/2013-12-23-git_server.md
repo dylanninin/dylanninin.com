@@ -231,6 +231,82 @@ You may want to set up a simple web-based visualizer. Git comes with a CGI scrip
 
 For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Git-on-the-Server-GitWeb).
 
+##Client-side Setting Up
+
+You may have multiple Git accounts (always with multiple SSH keys for different accounts respectively), or the remote SSH server (Git's most common transport protocol) is running not at the default (the well-known) 22 port, and it will work well with the minimal salvation through suffering for the elegance of design of Git and SSH.
+
+Here's an example for a client-side setting up on Windows 7, and you may have to download a Git tool from [http://www.git-scm.com/download/win](http://www.git-scm.com/download/win), which will provide a minimal GNU/Linux environment for Windows platform.
+
+1 . Multiple accounts (Github, and my own git server)
+
+Create the configure file to specify different account settings, host, identify file or user, etc.
+
+	$ echo ~
+	/c/Users/dylanninin@gmail.com
+	
+	$ touch ~/.ssh/config
+	
+	
+	$ cat ~/.ssh/config
+	#github account
+	Host github.com
+	    HostName github.com
+	    PreferredAuthentications publickey
+	    IdentityFile /c/Users/dylanninin@gmail.com/.ssh/id_rsa.github
+	    User git
+	
+	#ubuntu account
+	Host 192.168.1.111
+	    HostName 192.168.1.111
+	    PreferredAuthentications publickey
+	    IdentityFile /c/Users/dylanninin@gmail.com/.ssh/id_rsa.ubuntu
+	    User git
+
+2 . Non-default port (65500 for example)
+
+Modify the configure file of your git repository (always `local_repo/.git/config`), change the line:
+
+	url = git@192.168.1.111:65500/home/git/repositories/web.git
+	
+to:
+
+	url = ssh://git@192.168.1.111:65500/home/git/repositories/web.git
+	
+and the config file may look like this:
+
+	$ cat web/.git/config
+	[core]
+		repositoryformatversion = 0
+		filemode = false
+		bare = false
+		logallrefupdates = true
+		symlinks = false
+		ignorecase = true
+		hideDotFiles = dotGitOnly
+	[remote "origin"]
+		url = ssh://git@192.168.1.111:65500/home/git/repositories/web.git
+		fetch = +refs/heads/*:refs/remotes/origin/*
+
+Without this configure, ssh will connect to the host via port 22, which will result in an "Bad file number, fatal: could not read from remote repository" error.
+
+As an alternative, you can append the port specification to `~/.ssh/config` as following:
+
+	$ cat ~/.ssh/config
+	#github account
+	Host github.com
+	    HostName github.com
+	    PreferredAuthentications publickey
+	    IdentityFile /c/Users/dylanninin@gmail.com/.ssh/id_rsa.github
+	    User git
+	
+	#ubuntu account
+	Host 192.168.1.111
+	    HostName 192.168.1.111
+	    PreferredAuthentications publickey
+	    IdentityFile /c/Users/dylanninin@gmail.com/.ssh/id_rsa.ubuntu
+	    User git
+	    Port 65500
+
 ##Others
 
 * Local Repositories: Internally supported as Git is designed for distributed development.
@@ -244,6 +320,8 @@ For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Gi
 ##Reference
 
 * [Git on the Server](http://www.git-scm.com/book/en/Git-on-the-Server)
+* [Git Protocols](http://git-scm.com/book/ch4-1.html)
+* [Git SSH error: “Connect to host: Bad file number”](http://stackoverflow.com/questions/7144811/git-ssh-error-connect-to-host-bad-file-number)
 * [Free Blog with Github Pages](http://dylanninin.com/blog/2013/11/02/free_blogs.html)
 * [SSH Security Introduction on Linux](http://dylanninin.com/blog/2012/10/08/ssh_on_linux.html)
 * [Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)
