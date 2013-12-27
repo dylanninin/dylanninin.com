@@ -235,7 +235,7 @@ For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Gi
 
 You may have multiple Git accounts (always with multiple SSH keys for different accounts respectively), or the remote SSH server (Git's most common transport protocol) is running not at the default (the well-known) 22 port, and it will work well with the minimal salvation through suffering for the elegance of design of Git and SSH.
 
-Here's an example for a client-side setting up on Windows 7, and you may have to download a Git tool from [http://www.git-scm.com/download/win](http://www.git-scm.com/download/win), which will provide a minimal GNU/Linux environment for Windows platform.
+Here's an example for a client-side setting up on Windows 7, and you may have to download a Git tool from [http://www.git-scm.com/download/win](http://www.git-scm.com/download/win), which will provide a minimal GNU/Linux environment for the Windows platform.
 
 1 . Multiple accounts (Github, and my own git server)
 
@@ -245,7 +245,6 @@ Create the configure file to specify different account settings, host, identify 
 	/c/Users/dylanninin@gmail.com
 	
 	$ touch ~/.ssh/config
-	
 	
 	$ cat ~/.ssh/config
 	#github account
@@ -272,7 +271,7 @@ to:
 
 	url = ssh://git@192.168.1.111:65500/home/git/repositories/web.git
 	
-and the config file may look like this:
+and the entire config file may look like this:
 
 	$ cat web/.git/config
 	[core]
