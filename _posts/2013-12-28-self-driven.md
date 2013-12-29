@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Self-Driven
+title: On Self-Driven
 categories: [Psychology, Management, Resource]
 tags: [Psychology, Management, Resource]
 ---
