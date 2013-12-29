@@ -37,6 +37,8 @@ tags: [Psychology, Management, Resource]
 
 ##延伸阅读
 
+限于个人水平，我能写的内容很少，所以这儿先给出一些延伸的链接；今后若有体会了，再作更新和补充。
+
 * [和菜头：上班这点事](http://www.blogbus.com/sbjj-logs/85167302.html)
 * [robbin谈管理：要给下属challenge你的机会](http://robbinfan.com/blog/41/let-team-challenge-you)
 * [知乎：「以大多数人的努力程度之低，根本轮不到拼天赋」这句话的意义何在？](http://www.zhihu.com/question/20712208)
