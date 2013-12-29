@@ -192,4 +192,4 @@ tags : [Linux, Utilities]
 ##参考
 
 * [Installing Redmine](http://www.redmine.org/projects/redmine/wiki/RedmineInstall)
-* [bitnami Redmine]((http://bitnami.com/stack/redmine))
+* [bitnami Redmine]((http://bitnami.com/stack/redmine)
