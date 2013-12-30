@@ -5,7 +5,7 @@ category: Database
 tags: [DBA, MySQL]
 ---
 
-上周五下午，同事问到一个关于MySQL Multiple Instances的问题，参考一些教程配置后只能启动一个实例。当时正好要参加一个会议，晚上又是一年一度的晚会加抽奖环节（实际上我是奔着抽奖去的，无奈再次无缘），所以当天没有来得及处理。今天参考同事的配置进行测试，中间也遇到过一些错误，但感觉基础和关键都在MySQL的基本概念；最后同事发现问题所在，很快就解决了。
+上周五下午，同事问到一个关于MySQL Multiple Instances的问题，参考一些教程配置后只能启动一个实例。当时正好要参加一个会议，晚上又是一年一度的晚会加抽奖环节（实际上我是奔着抽奖去的，无奈再次无缘），所以当天没有来得及处理。今天参考同事的配置进行测试，中间也遇到过一些错误，但感觉基础和关键都在MySQL的基本概念；以邮件的慢节奏，一去一来，一个上午就过去了，最后还是同事发现问题所在，很快就解决了。
 
 另外，前几天正好看到阮一峰的[PostgreSQL新手入门](http://www.ruanyifeng.com/blog/2013/12/getting_started_with_postgresql.html)，开篇即提到“自从MySQL被Oracle收购以后，PostgreSQL逐渐成为开源关系型数据库的首选”，不是黑Oracle，我只想说，即使不是为了逐渐去IOE化，也应该试试PostgreSQL；另外，时下从MySQL迁移到各类NoSQL数据库的案例正在逐步增加。
 
@@ -189,7 +189,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 
 	/var/lib/mysql1
 	/var/lib/mysql2
-	/var/lib/mysql2
+	/var/lib/mysql3
 
 重启即正常。
 
