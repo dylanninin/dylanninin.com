@@ -46,6 +46,7 @@ group: navigation
 * [37signals](http://37signals.com/)
 * [Ruby China](http://ruby-china.org/)
 * [V2EX](http://v2ex.com/)
+* [啄木鸟Python社区](http://wiki.woodpecker.org.cn/)
 
 ##Security
 
