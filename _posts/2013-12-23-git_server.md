@@ -149,7 +149,7 @@ Create a new git repository and push to the remote git server：
 
 	$ git add .
 
-    dev$ git commit -m 'initial commit'
+    	$ git commit -m 'initial commit'
 	[master (root-commit) a8c85ac] initial commit
 	 14 files changed, 15063 insertions(+)
 	 create mode 100644 1.html
