@@ -20,7 +20,7 @@ tags: [Python, Libs, SQL, NoSQL, Web, Resource]
 
 * Java Service接口测试用例生成工具：在[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)中提到过，思路见模板[jUnit TestCase Gist](https://gist.github.com/dylanninin/7426041)。
 
-* Markdown Blog程序：使用[Web.py](http://webpy.org/)开发的Blog程序，自动渲染Markdown格式成HTML，见[Blog on Github](https://github.com/dylanninin/blog/)，在线demo [http://ec2-54-251-227-120.ap-southeast-1.compute.amazonaws.com](http://ec2-54-251-227-120.ap-southeast-1.compute.amazonaws.com)。
+* Markdown Blog程序：使用[Web.py](http://webpy.org/)开发的Blog程序，自动渲染Markdown格式成HTML，见[Blog on Github](https://github.com/dylanninin/blog/)，在线[demo](http://ec2-54-254-45-254.ap-southeast-1.compute.amazonaws.com/)。
 
 * 单词排行程序：同学在邮件中提到[Writing an Hadoop MapReduce Program in Python](http://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/)，手上正好有Oracle Database 11g的全部文档，所以动手统计了一下词频，不知道每年的高考、考研的英语高频词汇是不是这样统计出来的。
 
