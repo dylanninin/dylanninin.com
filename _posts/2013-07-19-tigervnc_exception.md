@@ -5,7 +5,7 @@ category : Linux
 tags : [Linux, Utilities, Exception]
 ---
 
-configure tightvnc
+configure tigervnc
 
     [root@db ~]# su - oracle
 
