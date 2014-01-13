@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Case of TightVNC Exception
+title: A Case of TigerVNC Exception
 category : Linux
 tags : [Linux, Utilities, Exception]
 ---
