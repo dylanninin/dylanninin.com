@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Gossip on Router and Push Technology
-categories : [Miscellanies, Note]
-tags : [Router, Push, Resource]
+categories : [Miscellanies, Note, Resource]
+tags : [Router, Push, Note, Resource]
 ---
 
 这两年听得最多的字眼是Oracle，好歹也在Oracle的圈子里混过，先做[Java Web](http://dylanninin.com/blog/2013/10/09/java_resource.html)开发，紧接着做了一年多的[Oracle DBA](http://dylanninin.com/blog/2013/10/26/oracle_dba.html)，维护[Oracle EBS](http://dylanninin.com/blog/2013/10/25/oracle_ebs.html)，也当过[Oracle Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)。第二多的字眼是路由器，听听而已，怎么说我也是路由器圈儿里的人；各位看官请勿笑，也请严肃。
@@ -73,7 +73,7 @@ Gossips：
 
 Push：
 
-* [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9)
+* [Apple: Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html#//apple_ref/doc/uid/TP40008194-CH100-SW9)
 * [知乎：iOS 和 Android 的后台推送原理各是什么？有什么区别？](http://www.zhihu.com/question/20667886)
 
 Network:
@@ -102,4 +102,4 @@ Network:
 ##参考
 
 * [打喷嚏段子：2011年“总结”篇](http://uni.dapenti.com/blog/more.asp?name=xilei&id=55554)
-* [@hsabby：消息推送的一点了解](http://hsabby.iteye.com/blog/1922612)
+* [hsabby：消息推送的一点了解](http://hsabby.iteye.com/blog/1922612)
