@@ -59,6 +59,11 @@ DBA的成长不易，DBA要经过入门、初级、中级、高级、资深、�
 	* Data Guard Concepts and Administration
 	* Backup and Recovery User's Guide
 	* Real Application Clusters Administration and Deployment Guide
+
+* storage
+	
+	* [EMC：存储基础知识](https://community.emc.com/thread/176852)
+	* [List of device bit rates](https://en.wikipedia.org/wiki/List_of_device_bit_rates)
    
 * development
 
