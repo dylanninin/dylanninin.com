@@ -216,7 +216,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 
 ##延伸阅读
 
-* [MySQl系统架构说明](http://blog.csdn.net/tianlesoftware/article/details/7029112)
+* [MySQL系统架构说明](http://blog.csdn.net/tianlesoftware/article/details/7029112)
 * YY哥理解MySQL系列博文：[架构与概念](http://www.cnblogs.com/hustcat/archive/2009/10/18/1585626.html)，[索引与优化](http://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html)，[复制Replication](http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html)，[并行数据库与分区Partition](http://www.cnblogs.com/hustcat/archive/2009/12/24/1631674.html)
 * [《High Performance MySQL》](http://book.douban.com/subject/1495763/)，[中文版](http://book.douban.com/subject/4241826/)
 * [从小型网站到超大规模网站的MySQL参考架构](http://www.infoq.com/cn/news/2013/03/MySQL-Reference-Architectures)
