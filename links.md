@@ -12,6 +12,7 @@ group: navigation
 * [Startup News](http://news.dbanotes.net/)
 * [Reddit](http://www.reddit.com/)
 * [Stackoverflow](http://stackoverflow.com/)
+* [High Scalability](http://highscalability.com/)
 * [Quora](http://www.quora.com/)
 * [Twitter](http://twitter.com/)
 * [新浪微博](http://weibo.com/)
