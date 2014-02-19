@@ -71,7 +71,7 @@ Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/
 
 大学时做过一些Web项目基本都是SSH框架，介绍见[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)。
 
-前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考IBM出品的[2010-3-10_Struts2_讲义](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
+前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考IBM出品的[Struts2讲义](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
     
 数据库ORM框架：[Hibernate3+](http://www.hibernate.org/)，参考个人制作的[Hibernate介绍.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcFZ3LWRzdXlDQm8/edit?usp=drive_web)。
 
