@@ -19,13 +19,13 @@ tags: [Java, Resource]
 
 ##基础
 	
-主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/);另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
+主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/)；另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
 
 [《Thinking in Java 4th》](http://pervasive2.morselli.unimo.it/~nicola/courses/IngegneriaDelSoftware/java/ThinkingInJava.pdf)很经典，可以作参考书，从Java的基础语法到高级特性（面向对象概念、容器、多线程等）都有涉及，但讲述详实，比较厚，不适合快速入门。
 
 网上有针对Python程序员的Java教程，对比了概念、语法，可供Python程序员快速浏览和熟悉之用，详见[Welcome to Java for Python Programmers](http://interactivepython.org/runestone/static/java4python/index.html)。
 
-编码规范：参考[Java Code Conversion](http://www.oracle.com/technetwork/java/codeconv-138413.html)。
+编码规范：参考[Java Code Conversion](http://www.oracle.com/technetwork/java/codeconv-138413.html)；[Google Java Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)。
     
 ##进阶
 
@@ -47,7 +47,7 @@ Java解惑：参考[《Java Puzzles》](http://www.javapuzzlers.com/)，熟悉Ja
 
 设计模式：参考[《Head First Design Patterns》](http://isa.unomaha.edu/wp-content/uploads/2012/08/Design-Patterns.pdf)、[JDK里的设计模式](http://coolshell.cn/articles/3320.html)，Java编程更偏向设计和架构，因此必须熟悉常用的设计模式，并灵活运用于实际项目中。
 
-JVM：参考[《The JVM Specification》](http://docs.oracle.com/javase/specs/jvms/se5.0/html/VMSpecTOC.doc.html)，Java虚拟机的规范和细节，对深入编译器和字节码有兴趣的可以参考。
+JVM：参考[《The JVM Specification》](http://docs.oracle.com/javase/specs/jvms/se5.0/html/VMSpecTOC.doc.html)，Java虚拟机的规范和细节，对深入编译器和字节码有兴趣的可以参考。性能优化系列，见[JVM performance optimization](http://www.javaworld.com/article/2078623/core-java/jvm-performance-optimization--part-1--a-jvm-technology-primer.html)。
 
 ##Web开发
 
@@ -92,6 +92,8 @@ IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclips
 ##其他
 
 UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.com/tools/newindex1.htm)。从不同维度和层次对项目进行建模（分析和设计），有助于熟悉项目的整体架构。用得比较多的是[StarUML](staruml.sourceforge.net/‎)；现在也有很多Web版的UML工具，推荐[LucidChart](https://www.lucidchart.com/)。
+
+资源：[高质量Java问答集锦](http://www.programcreek.com/simple-java/)；[JAVA多线程和并发基础面试问答](http://ifeve.com/java-multi-threading-concurrency-interview-questions-with-answers/)，[原文](http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers)；[41 Websites Every Java Developer Should Bookmark](http://www.cygnet-infotech.com/41-websites-every-java-developer-should-bookmark)。
 
 社区：[iteye](http://www.iteye.com/)，原名JavaEye，由[范凯Robbin](http://robbinfan.com/blog/28/about-robbin)创立，后被CSDN收购，随后[JavaEye被迫改名](http://www.csdn.net/article/2011-04-02/295196)。JavaEye可以说是国内最好的Java社区，虽不是资深用户，但深爱它的[资讯月刊](http://www.iteye.com/news/monthly)，可以开阔视野。另外，[JavaEye后来从Java改用Rails进行了重写](http://robbin.iteye.com/blog/969154)，;-)。
 
