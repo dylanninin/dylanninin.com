@@ -51,11 +51,11 @@ JVM：参考[《The JVM Specification》](http://docs.oracle.com/javase/specs/jv
 
 ##Web开发
 
-主要介绍Java在Web开发方面的基础技术和框架。
+主要介绍Java在Web开发方面的基础技术和框架，必知必会的知识点见[陈皓：Web开发中需要了解的东西](http://coolshell.cn/articles/6043.html)，[英文版](http://programmers.stackexchange.com/questions/46716/what-should-every-programmer-know-about-web-development)。
 
 ####1.前端
 
-HTML/CSS/JS：这些是基础，BS架构的应用离不开。
+HTML/CSS/JS：这些是基础，BS架构的应用离不开。参考：（1）[Mozilla HTML developer guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)（2）[学习CSS布局](http://zh.learnlayout.com/toc.html)、[CSS主流框架](http://zh.learnlayout.com/frameworks.html)；（3）阮一峰 [JavaScript标准参考教程](http://javascript.ruanyifeng.com/)。现在Web开发重前端和设计，技术发展日新月银，更多资料请参考[Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)，[foru17/front-end-collect](https://github.com/foru17/front-end-collect)。
 
 ####2.基础
 
@@ -69,19 +69,21 @@ Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/
 
 大学时做过一些Web项目基本都是SSH框架，对中小型企业已经够用，其他的暂未接触。
 
-前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考[2010-3-10_Struts2_讲义_IBM](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
+前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考IBM出品的[2010-3-10_Struts2_讲义](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
     
-数据库ORM框架：[Hibernate3+](http://www.hibernate.org/)，参考[2012-9-12_Hibernate.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcFZ3LWRzdXlDQm8/edit?usp=drive_web)。
+数据库ORM框架：[Hibernate3+](http://www.hibernate.org/)，参考个人制作的[Hibernate介绍.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcFZ3LWRzdXlDQm8/edit?usp=drive_web)。
 
-全能框架：[Spring2.5+](http://spring.io/)，参考[2012-9-12_Spring.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcWxzdGRtTE9FRkE/edit?usp=drive_web&pli=1)。
+全能框架：[Spring2.5+](http://spring.io/)，参考个人制作的[Spring介绍.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcWxzdGRtTE9FRkE/edit?usp=drive_web&pli=1)。
 
 ##工具
 
-IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclipse](http://www.myeclipseide.com/)，Java开发并不难，主要在于设计，写代码方面更多的是在使用IDE（如自动补全、生成代码等），推荐使用MyEclipse，参考[MyEclipse10优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)。
+IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclipse](http://www.myeclipseide.com/)，Java开发并不难，主要在于设；，写代码方面更多的是在使用IDE（如自动补全、生成代码等）。推荐使用MyEclipse，别忘了做一些[优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)。
 
 反编译：[JAD](http://varaneckas.com/jad/)，[jadeclipse(Eclipse插件)](http://sourceforge.net/projects/jadclipse/)，反编译.class文件，查看源代码。
 
 自动化工具：[Ant](http://ant.apache.org/)，[Maven](http://maven.apache.org/)，用于项目的自动化编译、测试、打包、部署等。
+
+工具箱：进行开发、测试、调试以及文档编排等工具集，参考[陈皓：Web工程师的工具箱](http://coolshell.cn/articles/8767.html)，[英文版](http://ivanzuzak.info/2012/11/18/the-web-engineers-online-toolbox.html)。
 
 ##其他
 
@@ -89,7 +91,7 @@ UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.c
 
 社区：[iteye](http://www.iteye.com/)，原名JavaEye，由[范凯Robbin](http://robbinfan.com/blog/28/about-robbin)创立，后被CSDN收购，随后[JavaEye被迫改名](http://www.csdn.net/article/2011-04-02/295196)。JavaEye可以说是国内最好的Java社区，虽不是资深用户，但深爱它的[资讯月刊](http://www.iteye.com/news/monthly)，可以开阔视野。另外，[JavaEye后来从Java改用Rails进行了重写](http://robbin.iteye.com/blog/969154)，;-)。
 
-##参考
+##资源汇总
 	
 * [Welcome to Java for Python Programmers](http://interactivepython.org/runestone/static/java4python/index.html)
 * [Java Specifications](http://docs.oracle.com/javase/specs/)
