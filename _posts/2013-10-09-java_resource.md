@@ -19,7 +19,7 @@ tags: [Java, Resource]
 
 ##基础
 	
-主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/)， 另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
+主要熟悉Java语言历史、特点、基础语法以及常用标准库，推荐官方的参考Java SE5.0/6.0 [Java Specifications](http://docs.oracle.com/javase/specs/);另外，台湾人[良葛格](http://openhome.cc/Gossip/)从事Java教育经验丰富，他的Java Essence和Java上下教程写得浅显易懂，很适合Java初学者，看起来不费力，入门快。
 
 [《Thinking in Java 4th》](http://pervasive2.morselli.unimo.it/~nicola/courses/IngegneriaDelSoftware/java/ThinkingInJava.pdf)很经典，可以作参考书，从Java的基础语法到高级特性（面向对象概念、容器、多线程等）都有涉及，但讲述详实，比较厚，不适合快速入门。
 
@@ -37,7 +37,7 @@ tags: [Java, Resource]
 
 ##高级
 
-技术点：参考《Java核心技术》[卷1](http://www.china-pub.com/208978)，[卷2](http://www.china-pub.com/508881)，[Volume 1](http://www.amazon.com/Core-Java-I-Fundamentals-8th-Sun/dp/0132354764/ref=sr_11_1?ie=UTF8&qid=1215592737&sr=11-1)，[Volume 2](http://www.amazon.com/Core-Java-Vol-Advanced-Features/dp/0132354799/ref=sr_1_1?ie=UTF8&s=books&qid=1227751671&sr=1-1)，介绍了Java技术的方方面面，阐述精确到位，叙述深入浅出，并包含大量示例，可作参考书。
+技术点：参考《Java核心技术》[卷1](http://www.china-pub.com/208978)，[卷2](http://www.china-pub.com/508881)，英文版[Volume 1](http://www.amazon.com/Core-Java-I-Fundamentals-8th-Sun/dp/0132354764/ref=sr_11_1?ie=UTF8&qid=1215592737&sr=11-1)，[Volume 2](http://www.amazon.com/Core-Java-Vol-Advanced-Features/dp/0132354799/ref=sr_1_1?ie=UTF8&s=books&qid=1227751671&sr=1-1)，介绍了Java技术的方方面面，阐述精确到位，叙述深入浅出，包含大量示例，可作参考书。
 
 并发编程：参考[《Java Concurrency in Practice》](http://cs.famaf.unc.edu.ar/~nicolasw/Docencia/PCeJ/jcip.pdf)，熟悉Java的并发模型和机制，有助于设计和编写并发性能良好的程序。
 
@@ -55,19 +55,21 @@ JVM：参考[《The JVM Specification》](http://docs.oracle.com/javase/specs/jv
 
 ####1.前端
 
-HTML/CSS/JS：这些是基础，BS架构的应用离不开。参考：（1）[Mozilla HTML developer guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)（2）[学习CSS布局](http://zh.learnlayout.com/toc.html)、[CSS主流框架](http://zh.learnlayout.com/frameworks.html)；（3）阮一峰 [JavaScript标准参考教程](http://javascript.ruanyifeng.com/)。现在Web开发重前端和设计，技术发展日新月银，更多资料请参考[Frontend Development](https://github.com/dypsilon/frontend-dev-bookmarks)，[foru17/front-end-collect](https://github.com/foru17/front-end-collect)。
+HTML/CSS/JS：这些是基础，BS架构的应用离不开。参考：（1）[Mozilla HTML developer guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML)（2）[学习CSS布局](http://zh.learnlayout.com/toc.html)、[CSS主流框架](http://zh.learnlayout.com/frameworks.html)；（3）阮一峰 [JavaScript标准参考教程](http://javascript.ruanyifeng.com/)。
+
+现在Web开发重前端和设计，技术发展日新月异，更多资料请参考[dypsilon/frontend-dev-bookmarks](https://github.com/dypsilon/frontend-dev-bookmarks)，[foru17/front-end-collect](https://github.com/foru17/front-end-collect)。
 
 ####2.基础
 
 JSP/Servlet：参考良葛格的[Servlet/JSP Gossip](http://openhome.cc/Gossip/ServletJSP/)，Java服务端编程基础，必须掌握。
 
-XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，配套的[PPT](https://drive.google.com/folderview?id=0B_BiAoqYvwURRVJsSWRHcEx1MzA&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)，编辑配置文件、自动化脚本、WebService等都离不开XML，必须掌握。
+XML：参考 [Java XML Tutorial](http://www.mkyong.com/tutorials/java-xml-tutorials/)，[《XML开发技术教程》](http://book.douban.com/subject/3246748/)，配套的[PPT](https://drive.google.com/folderview?id=0B_BiAoqYvwURRVJsSWRHcEx1MzA&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)，编辑配置文件、自动化脚本、Web Service等都离不开，必须掌握。
 
 Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/tomcat/HowTomcatWorks.pdf)，熟悉Java Web容器的原理以及实现细节，源代码很适合阅读。
         
 ####3.一些框架
 
-大学时做过一些Web项目基本都是SSH框架，对中小型企业已经够用，其他的暂未接触。
+大学时做过一些Web项目基本都是SSH框架，介绍见[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)。个人认为SSH框架对中小型企业已经够用，其他的暂未接触。
 
 前端框架: [Struts2+](http://struts.apache.org/development/2.x/)，参考IBM出品的[2010-3-10_Struts2_讲义](https://drive.google.com/folderview?id=0B_BiAoqYvwURTDBrR0kyZ0hKcDQ&usp=sharing&tid=0B_BiAoqYvwURUnVISmVDX3hZTGc)。
     
@@ -75,9 +77,11 @@ Web Container：参考[《How Tomcat Works》](http://files.cnblogs.com/wasp520/
 
 全能框架：[Spring2.5+](http://spring.io/)，参考个人制作的[Spring介绍.ppt](https://docs.google.com/file/d/0B_BiAoqYvwURcWxzdGRtTE9FRkE/edit?usp=drive_web&pli=1)。
 
+其他框架：[Play Framework](http://www.playframework.com/)，基于Java和[Scala](http://www.scala-lang.org/)、新秀；喜欢Rails的人，可以看看两者的[对比](http://vschart.com/compare/play-framework/vs/ruby-on-rails)。
+
 ##工具
 
-IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclipse](http://www.myeclipseide.com/)，Java开发并不难，主要在于设；，写代码方面更多的是在使用IDE（如自动补全、生成代码等）。推荐使用MyEclipse，别忘了做一些[优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)。
+IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclipse](http://www.myeclipseide.com/)。因水平有限，个人认为Java开发并不难，但重在设计，写代码方面更多的是在使用IDE（如自动补全、代码生成、重构等）。推荐使用MyEclipse，别忘了做一些[优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)。
 
 反编译：[JAD](http://varaneckas.com/jad/)，[jadeclipse(Eclipse插件)](http://sourceforge.net/projects/jadclipse/)，反编译.class文件，查看源代码。
 
@@ -87,7 +91,7 @@ IDE: [Vim](http://www.vim.org/)，[Eclipse](http://www.eclipse.org/)，[MyEclips
 
 ##其他
 
-UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.com/tools/newindex1.htm)。从不同维度和层次对项目进行建模（分析和设计），有助于熟悉项目的整体架构。我用得比较多的是[StarUML](staruml.sourceforge.net/‎)，现在也有很多Web版的UML工具，推荐[LucidChart](https://www.lucidchart.com/)，Google Docs现在也支持LucidChart。
+UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.com/tools/newindex1.htm)。从不同维度和层次对项目进行建模（分析和设计），有助于熟悉项目的整体架构。用得比较多的是[StarUML](staruml.sourceforge.net/‎)；现在也有很多Web版的UML工具，推荐[LucidChart](https://www.lucidchart.com/)。
 
 社区：[iteye](http://www.iteye.com/)，原名JavaEye，由[范凯Robbin](http://robbinfan.com/blog/28/about-robbin)创立，后被CSDN收购，随后[JavaEye被迫改名](http://www.csdn.net/article/2011-04-02/295196)。JavaEye可以说是国内最好的Java社区，虽不是资深用户，但深爱它的[资讯月刊](http://www.iteye.com/news/monthly)，可以开阔视野。另外，[JavaEye后来从Java改用Rails进行了重写](http://robbin.iteye.com/blog/969154)，;-)。
 
@@ -115,7 +119,6 @@ UML：设计核心、参考手册, [UML相关工具一览](http://www.umlchina.c
 * [Lisp的永恒之道](http://coolshell.cn/articles/7526.html)
 * [Java SE5 API](http://docs.oracle.com/javase/1.5.0/docs/api/), [Java SE6 API](http://docs.oracle.com/javase/6/docs/api/)
 * [Apache Tomcat 6](http://tomcat.apache.org/tomcat-6.0-doc/index.html)
-* [UML](http://www.uml.org/)
+* [UML官方站点](http://www.uml.org/)
 * [陈皓 Java图书Top10](http://coolshell.cn/articles/14.html)
 * [MyEclipse10优化](http://www.cnblogs.com/batys/archive/2012/02/23/2364832.html)
-* [Google Drive](https://drive.google.com/folderview?id=0B_BiAoqYvwURUnVISmVDX3hZTGc&usp=sharing)
