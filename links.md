@@ -38,7 +38,7 @@ group: navigation
 * [霍炬](http://blog.devep.net/)
 * [阳志平](http://www.yangzhiping.com/)
 * [幻風閣kentzhu](http://ikent.me/)
-* [Timyang](http://timyang.net/)
+* [Tim Yang](http://timyang.net/)
 * [闾丘露薇](http://www.my1510.cn/author.php?roseluqiu)
 
 ##Communities
@@ -46,8 +46,17 @@ group: navigation
 * [Github](https://github.com)
 * [37signals](http://37signals.com/)
 * [Ruby China](http://ruby-china.org/)
+* [Teahour.fm](http://teahour.fm/)
 * [V2EX](http://v2ex.com/)
 * [啄木鸟Python社区](http://wiki.woodpecker.org.cn/)
+* [Be For Web](http://beforweb.com/)
+
+##Algorithms
+
+* [July：结构之法、算法之道](http://blog.csdn.net/v_JULY_v)
+* [The Big O Cheatsheet](http://bigocheatsheet.com/)
+* [List of Data Structures](http://en.wikipedia.org/wiki/List_of_data_structures)
+* [List of Algorithms](http://en.wikipedia.org/wiki/List_of_algorithms)
 
 ##Security
 
