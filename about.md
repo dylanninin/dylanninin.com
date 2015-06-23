@@ -25,7 +25,7 @@ varied opinions. Hope you will like it and discuss.
 
 ##Contact
 
-* ![gmail](http://dylanninin.com/assets/images/me/gmail.png) dylanninin@gmail.com
+* ![gmail](http://dylanninin.com/assets/images/me/gmail.png) dylanninin (at) gmail.com
 
 <hr>
 {% include JB/comments %}
