@@ -5,7 +5,7 @@ header : Links
 group: navigation
 ---
 
-##Social
+## Social
 
 * [Hacker News](https://news.ycombinator.com/)
 * [DataTau HN](http://www.datatau.com/)
@@ -21,7 +21,7 @@ group: navigation
 * [极客公园](http://www.geekpark.net/)
 * [打喷嚏](http://www.dapenti.com/blog/)
 
-##Blogs
+## Blogs
 
 * [Paul Graham](http://www.paulgraham.com/)
 * [Joel Spolsky](http://www.joelonsoftware.com/)
@@ -41,7 +41,7 @@ group: navigation
 * [Tim Yang](http://timyang.net/)
 * [闾丘露薇](http://www.my1510.cn/author.php?roseluqiu)
 
-##Communities
+## Communities
 
 * [Github](https://github.com)
 * [37signals](http://37signals.com/)
@@ -51,28 +51,28 @@ group: navigation
 * [啄木鸟Python社区](http://wiki.woodpecker.org.cn/)
 * [Be For Web](http://beforweb.com/)
 
-##Algorithms
+## Algorithms
 
 * [July：结构之法、算法之道](http://blog.csdn.net/v_JULY_v)
 * [The Big O Cheatsheet](http://bigocheatsheet.com/)
 * [List of Data Structures](http://en.wikipedia.org/wiki/List_of_data_structures)
 * [List of Algorithms](http://en.wikipedia.org/wiki/List_of_algorithms)
 
-##Security
+## Security
 
 * [乌云网](http://wooyun.org/)
 * [OWASP](http://www.owasp.org/)
 
-##Comics
+## Comics
 
 * [xkcd](http://xkcd.com/)
 * [西桥的九卦](http://blog.xiqiao.info/category/programmers)
 
-##Weekly
+## Weekly
 
 * [码农周刊](http://weekly.manong.io/issues/)
 
-##MOOC
+## MOOC
 
 * [Udacity](https://www.udacity.com/)
 * [Coursera](https://class.coursera.org/)
@@ -80,7 +80,7 @@ group: navigation
 * [Khan Academy](https://www.khanacademy.org/)
 * [Tuts+ Premium](https://tutsplus.com/)
 
-##Miscellanies
+## Miscellanies
 
 * [STFG](https://www.google.com)
 * [Wikipedia](https://en.wikipedia.org/)

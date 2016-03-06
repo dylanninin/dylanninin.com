@@ -4,17 +4,17 @@ title : About
 group: navigation
 ---
 
-##Blog
+## Blog
 
 This blog is about IT technology such as web, database and development.
 Additional, I'll share some of my individual life, especially about reading and
 varied opinions. Hope you will like it and discuss.
 
-##Work
+## Work
 
 * IT Engineer 2011.7 ~ Now
 
-##Info
+## Info
 
 * ![douban](http://dylanninin.com/assets/images/me/douban.png) [douban.com](http://www.douban.com/people/dylanninin/)
 * ![weibo](http://dylanninin.com/assets/images/me/weibo.png) [weibo.com](http://weibo.com/dylanninin)
@@ -23,7 +23,7 @@ varied opinions. Hope you will like it and discuss.
 * ![blog](http://dylanninin.com/assets/images/me/dylanninin.png) [dylanninin.com](http://www.dylanninin.com)
 * ![me](http://dylanninin.com/assets/images/me/me.png) [about.me](http://about.me/dylanninin)
 
-##Contact
+## Contact
 
 * ![gmail](http://dylanninin.com/assets/images/me/gmail.png) dylanninin (at) gmail.com
 
