@@ -5,7 +5,7 @@ category : Linux
 tags : [Linux, Utilities, Mail]
 ---
 
-### OS Configuration
+###  OS Configuration
 
 kernel
 
@@ -21,7 +21,7 @@ account
     Retype new password: 
     passwd: all authentication tokens updated successfully.
     
-## postfix sasl mysql
+##  postfix sasl mysql
 
 required packages
 
@@ -166,7 +166,7 @@ config mysql
     
     mysql> grant all on email.* to email@'%' identified by 'password';
   
-## chkconfig and start service
+##  chkconfig and start service
   
 chkconfig 
     
@@ -183,7 +183,7 @@ start service
     Stopping saslauthd Imap:                                     [  OK  ]
     Starting saslauthd Imap:                                     [  OK  ]
     
-## mail test
+##  mail test
 
 script 
 
@@ -206,7 +206,7 @@ server
     Dec 19 17:57:35 oa postfix/smtp[4405]: C683287A03: to=<me@egolife.com>, relay=smtp.egolife.com[192.168.1.10]:25, delay=0.28, delays=0.04/0/0.02/0.22, dsn=2.0.0, status=sent (250 Message queued)
     Dec 19 17:57:35 oa postfix/qmgr[2159]: C683287A03: removed
 	
-##Reference
+## Reference
 
 * [postfix](http://www.postfix.org/)
 * [SASL](http://asg.web.cmu.edu/sasl/)

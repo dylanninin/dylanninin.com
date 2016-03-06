@@ -7,7 +7,7 @@ tags: [Git, Linux, Windows]
 
 [Github](https://github.com) is well-known and we are enjoying it, but now I will set up a minimal Git server on Ubuntu according to [Git on the Server](http://www.git-scm.com/book/en/Git-on-the-Server) for some reason you have to set up your own hosting repositories, and it really works well.
 
-##Minimal Git Server
+## Minimal Git Server
 
 Get server information: Kernel and IP address.
 
@@ -231,7 +231,7 @@ You may want to set up a simple web-based visualizer. Git comes with a CGI scrip
 
 For further details, continue reading [GitWeb](http://www.git-scm.com/book/en/Git-on-the-Server-GitWeb).
 
-##Client-side Setting Up
+## Client-side Setting Up
 
 You may have multiple Git accounts (always with multiple SSH keys for different accounts respectively), or the remote SSH server (Git's most common transport protocol) is running not at the default (the well-known) 22 port, and it will work well with the minimal salvation through suffering for the elegance of design of Git and SSH.
 
@@ -306,7 +306,7 @@ As an alternative, you can append the port specification to `~/.ssh/config` as f
 	    User git
 	    Port 65500
 
-##Others
+## Others
 
 * Local Repositories: Internally supported as Git is designed for distributed development.
 
@@ -316,7 +316,7 @@ As an alternative, you can append the port specification to `~/.ssh/config` as f
 
 * [Github](https://github.com): Build software better, together.
 
-##Reference
+## Reference
 
 * [Git on the Server](http://www.git-scm.com/book/en/Git-on-the-Server)
 * [Git Protocols](http://git-scm.com/book/ch4-1.html)

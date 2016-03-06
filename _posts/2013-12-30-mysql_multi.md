@@ -15,9 +15,9 @@ tags: [DBA, MySQL]
 * 顺便推荐一些关于MySQL的延伸阅读，以作收藏和扩散；
 * 最后，借此机会学习下如何提问，做好做足自身的准备工作，见[How To Ask For Help](http://dylanninin.com/blog/2013/12/30/ask_for_help.html)。
 
-##MySQL多实例配置
+## MySQL多实例配置
 
-###MySQL基本环境
+### MySQL基本环境
 
 1 . 主要信息
 
@@ -38,7 +38,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 * 数据库目录: `/var/lib/mysql1`，`/var/lib/mysql2`
 * 日志目录：`/var/log/mysql1`, `/var/lib/mysql2`
 
-###MySQL Single Instance
+### MySQL Single Instance
 
 一般情况下我们安装MySQL Server后，即默认启动一个MySQL实例，并绑定3306端口。主要步骤如下：
 
@@ -76,7 +76,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 	root@ubuntu:#mysql -uroot -p
 	... ...
 
-###MySQL Multiple Instances
+### MySQL Multiple Instances
 
 有时需要在一台主机上运行多个MySQL实例，以便充分利用服务器资源。以两个实例mysql1，mysql2为例，主要步骤如下：
 
@@ -145,7 +145,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 	MySQL server from group: mysql1 is running
 	MySQL server from group: mysql2 is running
 
-###MySQL的几个异常
+### MySQL的几个异常
 
 1 . `mysql`命令未找到
 
@@ -214,7 +214,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 
 以上即为此次配置过程，不管对错，以后再做深究；或许是用不做深究。
 
-##延伸阅读
+## 延伸阅读
 
 * [MySQL系统架构说明](http://blog.csdn.net/tianlesoftware/article/details/7029112)
 * YY哥理解MySQL系列博文：[架构与概念](http://www.cnblogs.com/hustcat/archive/2009/10/18/1585626.html)，[索引与优化](http://www.cnblogs.com/hustcat/archive/2009/10/28/1591648.html)，[复制Replication](http://www.cnblogs.com/hustcat/archive/2009/12/19/1627525.html)，[并行数据库与分区Partition](http://www.cnblogs.com/hustcat/archive/2009/12/24/1631674.html)
@@ -223,7 +223,7 @@ MySQL Multiple Instances，参考MySQL单实例目录结构(两个实例，分�
 * [MySQL会议资料](http://www.mysqlplus.net/mysql-docs/)
 * [何登成的技术博客](http://hedengcheng.com/)
 
-##参考
+## 参考
 
 * [Oracle MySQL Blogs](https://blogs.oracle.com/MySQL/)
 * [MySQL 5.5 Reference](http://dev.mysql.com/doc/refman/5.5/en/)

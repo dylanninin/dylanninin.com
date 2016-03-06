@@ -9,7 +9,7 @@ tags: [Theory, Resource]
 
 全文转载，希望抽时间一一拜读；另外，以正常的上网方式，部分链接似乎已经找不到了，稍后顺手汇总备份一份到Google Drive(HTML转PDF)，地址见文末。
 
-##计算机科学经典论文
+## 计算机科学经典论文
 
 从Jao的[Programming Musing](http://jaortega.wordpress.com/) 看到的：[Babar Kazar](http://www.zafar.se/bkz/Articles/ClassicCompScienceTexts)整理了一堆经典论文。Jao强烈建议每个严肃的程序员读每篇论文，说它们都或多或少有意思。粗粗扫了一下，很多论文都没读过。挑了些俺多少知道一点的介绍。
 
@@ -155,6 +155,6 @@ AI的奠基论文。不过我没读过。
 
 作者不用介绍了吧？这篇文章里介绍的Unix特性早为人熟知。不过第八部分(VIII Perspective)讨论了作者的设计理念，仍然值得一读。
 
-##Reference
+## Reference
 
 * [g9：计算机科学经典论文](http://blog.csdn.net/g9yuayon/article/details/1512851)

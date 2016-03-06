@@ -11,7 +11,7 @@ For that to work, we need a supporting set of practices. We write tests to help 
 
 But there’s another area of the application that changes, an area that we can’t directly manage using version control. The database schema in a Rails application constantly evolves as we progress through the development: we add a table here, rename a column there, and so on. The database changes in step with the application’s code.
 
-##Migrations
+## Migrations
 
 A migration is simply a Ruby source file in your application’s `db/migrate` directory. Each migration file’s name starts with a number of digits (typically fourteen) and an underscore. Those digits are the key to migrations, because they define the sequence in which the migrations are applied - they are the individual migration’s version number.
 
@@ -59,7 +59,7 @@ Using migrations, you can:
 * apply and back out entire sets of changes.
 * mix in your own custom SQL into the mix, all in a completely reproducible manner.
 
-###Column Types
+### Column Types
 
 Rails tries to make your application independent of the underlying database; you could develop using SQLite 3 and deploy to Postgres if you wanted, for example.
 
@@ -74,7 +74,7 @@ There are three options you can use when defining most columns in a migration. E
 * default: value. This sets the default value for the column.
 * `decimal` columns take the options `:precision` and `:scale`. The `:precision` option specifies the number of significant digits that will be stored, and the `:scale` option determines where the decimal point will be located in these digits.
 
-###Migrations with Rake
+### Migrations with Rake
 
     $ rake -T | grep db
     rake db:create                          # Create the database from DATABASE_URL or config/database.yml for the current Rails.env (use db:create:all to create all dbs in the config)
@@ -94,7 +94,7 @@ There are three options you can use when defining most columns in a migration. E
     rake test:all                           # Run tests quickly by merging all types and not resetting db
     rake test:all:db                        # Run tests quickly, but also reset db
 
-##Reference
+## Reference
 
 * [Agile Web Development with Rails 4](http://book.douban.com/subject/24718727/)
 * [Rake (software)](http://en.wikipedia.org/wiki/Rake_(software))

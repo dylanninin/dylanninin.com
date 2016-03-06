@@ -5,7 +5,7 @@ category : Linux
 tags : [Linux, Utilities]
 ---
 
-##退格键
+## 退格键
       
 在Linux环境下，使用`SQL*Plus`时有时会出现退格键不好使用的情况。此时，可以一般可用使用stty命令来解决。
 
@@ -71,7 +71,7 @@ stty(set tty，设置tty)命令用于检查和修改当前注册的终端的通�
 
 说明：按下退格键会显示成^H。 如果在当前窗口执行的话，只对当前的窗口有效，下次登陆的时候还需要重新设置，可以把这个命令写入shell 的配置文件，如`~/.bashrc` 中，这样每次都能生效了。
  
-##方向键
+## 方向键
 
 Windows下使用方向键是没有问题的，但是在Linux下，方向键是使用不了。此时可以安装一下rlwrap工具。
 
@@ -184,7 +184,7 @@ rlwrap本身是个遵循GPL 标准的Shell 脚本，可以运行任何你提供�
 	Ctrl+Y：粘贴
 	Ctrl+L：cLear，清屏
 
-##参考
+## 参考
 
 * [Linux下`SQL*Plus`退格、方向键问题](http://blog.csdn.net/tianlesoftware/article/details/6168219)
 * [利用Uniread解决Linux下的`SQL*Plus`命令历史回调功能](http://dbanotes.net/tech-memo/uniread-howto.html)

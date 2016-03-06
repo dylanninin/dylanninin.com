@@ -26,7 +26,7 @@ tags: [Python, Libs, SQL, NoSQL, Web, Resource]
 
 以上大概是自学Python以来写过的一些程序，大部分代码还在，从中可见Python代码写得很不成熟；分析起来无非就是Python基础不过关、对标准库第三方库不熟练、受时间精力约束程序缺少锤炼、阅读源代码太少等之类的原因；当然，也很业余。
 
-##为什么是Python
+## 为什么是Python
 
 前段时间写[For Rails](http://dylanninin.com/blog/2013/11/11/for_rails.html)时，稍微概括了下自己的工作，这里再提一下：我是一枚Java攻城狮，工作两年多，主要做[Java Web](http://dylanninin.com/blog/2013/10/09/java_resource.html)开发，期间转去做了一年多的[Oracle DBA](http://dylanninin.com/blog/2013/10/26/oracle_dba.html)，维护[Oracle EBS](http://dylanninin.com/blog/2013/10/25/oracle_ebs.html)，也当过[Linux Administrator](http://dylanninin.com/blog/2013/10/25/linux.html)。似乎涉猎的东西太多太浅，有点样样稀松的嫌疑。
 
@@ -46,11 +46,11 @@ tags: [Python, Libs, SQL, NoSQL, Web, Resource]
 
 正如文中提到的一样，我学习Python很大一部分原因就是朋友的介绍；经过一些练习之后，你会发现自己越来越喜欢Python的简洁。印象最深的一次，要属部门一次关于[Web Service](http://en.wikipedia.org/wiki/Web_service)的技术交流会，主持人用Java来演示[XML RPC](http://en.wikipedia.org/wiki/XML-RPC)、[JSON RPC](http://en.wikipedia.org/wiki/JSON-RPC)、[SOAP](http://en.wikipedia.org/wiki/SOAP)，不说混杂着各种[Annotation](http://en.wikipedia.org/wiki/Java_annotation)，连这些协议都未所有触及，就疯狂的演示各种语言的客户端程序了。鉴于此，我花了几天时间看了下wiki，然后用Python做了几个原型，还附加地看了[REST](http://en.wikipedia.org/wiki/Representational_state_transfer)，这时你会发现用Python来解释会更加简明，这大概就是[奥卡姆剃刀](http://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80)所讲的简单有效原理吧。
 
-##一点Python编程资料
+## 一点Python编程资料
 
 因为Python学习得很业余，所以想加强理解，提高编程技能；在工作之余顺手收藏了一些Python相关的资料，有一些看了一部分就搁置了，但时常还是会想起来是不是该抽点时间继续看看。基于以上原因，就动手整理一份Python编程的资料作为索引，以后会陆续更新。
 
-###入门和基础
+### 入门和基础
 
 Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](https://wiki.python.org/moin/Python2orPython3)。初学者不用考虑这个问题，可以从Python 2.x入门，之后再讨论会多一些理性。
 
@@ -74,7 +74,7 @@ Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](
 
 * 源代码：直接到[Github](https://github.com/search?q=python&ref=cmdform)上去找吧。
 
-###Python与数据库
+### Python与数据库
 
 在项目开发中，数据库应用必不可少。这里汇总下目前接触过的数据库和使用教程。
 
@@ -108,7 +108,7 @@ The original intention has been modern web-scale databases. The movement began e
 
 * 更多资料：NoSQL英文站点见[NoSQL Database](http://nosql-database.org/)；NoSQL中文论坛见[NoSQL Fan：关注NoSQl相关的新闻和技术](http://blog.nosqlfan.com/)。NoSQL Fan中，MongoDB和Redis资料很多，已经形成了资料专题，包括介绍、内部实现、应用与优化、新闻等，总能发现你想要的东西：1）[NoSQL Fan：Redis资料汇总专题](http://blog.nosqlfan.com/html/3537.html)；2）[NoSQL Fan: MongoDB资料汇总专题](http://blog.nosqlfan.com/html/3548.html)。
 
-###Python与Web开发
+### Python与Web开发
 
 Python的Web框架众多，见[Web Frameworks for Python](https://wiki.python.org/moin/WebFrameworks)，总有一款适合你或你的项目，实在不行，请动手打造自己的框架；为什么会有这么多框架呢，见[Why so many Python wen frameworks?](http://bitworking.org/news/Why_so_many_Python_web_frameworks)。
 
@@ -121,11 +121,11 @@ Flask is called a microframework because it keeps the core simple but extensible
 
 * [Django](https://www.djangoproject.com/)：一句话介绍"Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design."，接触不多，作为全栈式框架，听说它的组件都是Made in Django。更多资料见[Django资料](http://haoluobo.com/trac/wiki/Django)。
 
-###IDE
+### IDE
 
 * [Vim](http://www.vim.org/) + [Python Mode](https://github.com/klen/python-mode)。目前就用这个方案，很方便，直接引用同学的[效果图](http://www.douban.com/photos/photo/1975213817/)。关于Vim资料和讨论，请移步[Vim资料大全](http://wiki.hotoo.me/Vim.html)；关于Vim更多插件和演示，请移步[k-vim on Github](https://github.com/wklken/k-vim)；关于Git，Github，请移步本站[Free Blog with Github Pages](http://dylanninin.com/blog/2013/11/02/free_blogs.html)。
 
-###社区
+### 社区
 
 * [啄木鸟社区](http://wiki.woodpecker.org.cn/moin/)
 * [42区：网站开发.漫游指南](http://matrix.42qu.com/)
@@ -134,14 +134,14 @@ Flask is called a microframework because it keeps the core simple but extensible
 * [豆瓣Python小组](http://www.douban.com/group/python/)
 * [哲思社区](http://www.zeuux.com/)
 
-###周刊
+### 周刊
 
 * [Python Weekly](http://www.pythonweekly.com/)：每周更新，包括Python相关的文章、教程、演讲、书籍、项目、工作等。
 * [Pycoder's Weekly](http://www.pycoders.com/)：与Python Weekly类似，两者可以互为补充，了解过去一周动态。
 * [码农周刊](http://weekly.manong.io/): [developerWorks](http://weibo.com/developerworks)出品的周刊，来自国人的分享。可以先看[为什么要做《码农周刊》？](http://blog.manong.io/why-create-a-weekly-newsletter-for-programmers/)；接着[《码农周刊》用到的一些技术](http://blog.manong.io/technologies-we-use/)；
 再接着[周刊回顾](http://weekly.manong.io/issues/)。这里不仅仅是Python。
 
-## Python 3
+##  Python 3
 
 前面提到，『Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](https://wiki.python.org/moin/Python2orPython3)。初学者不用考虑这个问题，可以从Python 2.x入门，之后再讨论会多一些理性。』目前来看，已然不妥：对于新手，推荐直接学习 Python 3.x；对于还停留在 Python 2.x 的，则应尽快拥抱变化，与时俱进。
 
@@ -154,6 +154,6 @@ Flask is called a microframework because it keeps the core simple but extensible
 - [Python 3 Glossory](https://docs.python.org/3/glossary.html)
 - [Python 3 Cookbook on Github](https://github.com/yidao620c/python3-cookbook)
 
-##Reference
+## Reference
 
 * [十年学会编程](http://daiyuwen.freeshell.org/gb/misc/21-days-cn.html)

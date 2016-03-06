@@ -27,7 +27,7 @@ tags: [Resource]
 
 关于如何提问，正在学习，下文的延伸阅读可做一份很好的参考。
 
-##延伸阅读
+## 延伸阅读
 
 * [陈皓：X-Y Problem](http://coolshell.cn/articles/10804.html)
 * [陈皓：你会问问题吗？](http://coolshell.cn/articles/3713.html)

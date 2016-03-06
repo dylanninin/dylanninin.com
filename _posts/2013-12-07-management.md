@@ -13,7 +13,7 @@ tags: [Psychology, Management, Resource]
 
 ---
 
-##卧虎藏龙
+## 卧虎藏龙
 
 成语“卧虎藏龙”出自北周·庾信《同会河阳公新造山地聊得寓目》诗：“暗石椅藏虎，盘根似卧龙”。现在一般意指深藏不露的人才，比如历史上著名的卧龙先生，或《卧虎藏龙》中的玉娇龙。
 
@@ -33,14 +33,14 @@ tags: [Psychology, Management, Resource]
 
 ---
 
-##领导和管理
+## 领导和管理
 
 领导，对应的英文是[Leadership](http://en.wikipedia.org/wiki/Leadership)(领导力)。管理，对应的英文是[Management](http://en.wikipedia.org/wiki/Management)。维基百科的词条很长，内容很丰富，暂且还没有读完，也没有理解透。但以我目前的理解水平，可以简化如下：
 
 * 领导：做正确的事。这是What的问题，即做什么，判断这件事是否值得去做；这也是决策，决定了大方向或者要达成的目标。
 * 管理：正确的做事。这是How的问题，即怎样做，如何高效能地完成一件事；这也是执行，决定了具体细节和完成的效能。
 
-###大雁南飞
+### 大雁南飞
 
 领导站在最高处，是舵手，是挥棒之人，可谓振臂一呼，应者云集，决定了我们是齐心战斗，是陪太子读书，还是瞎折腾，抑或是沦为炮灰。管理者的角色很复杂，对上要做忠臣，鞠躬尽瘁死而后已；对下要做奶爸，让崽儿们茁壮成长。
 
@@ -58,7 +58,7 @@ tags: [Psychology, Management, Resource]
 
 以上条目经过一些演绎或者放大，如有雷同，纯属巧合。
 
-###一些补充
+### 一些补充
 
 我没有当过领导，也没有管理过团队，如何领导、管理难以启齿。但多多少少被领导过，也被管理着，也有一些道听途说，以我之浅见，它们的好坏在于是否需要不断压榨和窄化工作的概念，是否需要不断进行自我洗脑，是否需要被迫去寻找做一件事情的理由和意义。当然，你也可以掏空自己的杂思，简化模型：工作就是工作，收到任务强力推进，一份劳动一份薪酬，仅此而已，这大概就是雇佣制的初始形态。
 
@@ -78,7 +78,7 @@ tags: [Psychology, Management, Resource]
 
 ![spring_report](http://dylanninin.com/assets/images/2013/spring_report.jpg)
 
-###一点浅见
+### 一点浅见
 
 沉默是好事，没有想清楚尽可闷声儿做事，且看时间检验；有时也是一件坏事，大伙儿只字不提凝成坚冰，下一次自然会好的。关于沉默，还有一个理论，叫“[沉默的螺旋](http://en.wikipedia.org/wiki/Spiral_of_silence)”。
 
@@ -96,7 +96,7 @@ tags: [Psychology, Management, Resource]
 
 6) 自我修养。人是一个很奇怪的动物，很容易把成功归因自己，而把失败归于他人，不管怎样还自我感觉良好。借用[庄表伟](http://www.zhihu.com/people/zhuang-biao-wei)的一句话，这时你需要[找虐、找抽、找灭、找骂、找毒舌、找X(X=一切能够打击你的东西)](http://www.zhihu.com/question/21127275)，不断[osce te ipsum](http://en.wikipedia.org/wiki/Nosce_te_ipsum)。借用胡适的一句话：“就我们一般人而言，最简便的修养方法是读书”，所以请多读书、多思考。
 
-##延伸阅读
+## 延伸阅读
 
 * [硝烟中的Scrum和XP](http://book.douban.com/subject/5501718/)
 * [知乎周刊：去他的经理](http://www.duokan.com/book/41282)
@@ -110,7 +110,7 @@ tags: [Psychology, Management, Resource]
 * [Leadership](http://en.wikipedia.org/wiki/Leadership)
 * [Management](http://en.wikipedia.org/wiki/Management)
 
-##关于工作
+## 关于工作
 
 * [陈皓：软件开发的"三重门"](http://coolshell.cn/articles/6526.html)
 * [陈皓：挑战无处不在](http://coolshell.cn/articles/7048.html)
@@ -121,6 +121,6 @@ tags: [Psychology, Management, Resource]
 * [刘未鹏：怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 * [阳志平：记住你的样子：写给毕业生的十篇文章](http://www.yangzhiping.com/psy/remember-who-you-are.html)
 
-##参考
+## 参考
 
 * [卧虎藏龙](http://www.douban.com/subject/1301168/)
