@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Oracel DBA
+title: Oracle DBA
 categories: [Oracle, Database, Resource]
 tags: [Oracle, Database, DBA, Resource]
 ---
