@@ -141,6 +141,19 @@ Flask is called a microframework because it keeps the core simple but extensible
 * [码农周刊](http://weekly.manong.io/): [developerWorks](http://weibo.com/developerworks)出品的周刊，来自国人的分享。可以先看[为什么要做《码农周刊》？](http://blog.manong.io/why-create-a-weekly-newsletter-for-programmers/)；接着[《码农周刊》用到的一些技术](http://blog.manong.io/technologies-we-use/)；
 再接着[周刊回顾](http://weekly.manong.io/issues/)。这里不仅仅是Python。
 
+## Python 3
+
+前面提到，『Python有Python 2.x 和Python 3.x 之分，争论很多，见[Python2orPython3](https://wiki.python.org/moin/Python2orPython3)。初学者不用考虑这个问题，可以从Python 2.x入门，之后再讨论会多一些理性。』目前来看，已然不妥：对于新手，推荐直接学习 Python 3.x；对于还停留在 Python 2.x 的，则应尽快拥抱变化，与时俱进。
+
+对于项目的开发维护来说，在新旧版本中来回穿梭/切换是一件痛苦的事儿，也会增加很多不必要的负担，因此尽快推进将手头的项目升级到 Python 3.x（当前最新版本为 3.5）。但升级绝不是拍拍脑袋就能决定的，具体参考 [Porting Python 2 Code to Python 3](https://docs.python.org/dev/howto/pyporting.html)。在 2015 年年底，便将一个开发维护近半年的 Web 项目顺利从 2.7 升级到 3.5，这与单元测试覆盖足够、第三方依赖库都支持 Python 3、团队成员愿意持续学习是分不开的。
+
+- [Key Differences between 2.7.x and 3.x](http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+- [Writing Python 2-3 compatible code](http://python-future.org/compatible_idioms.html)
+- [Porting Python 2 Code to Python 3](https://docs.python.org/dev/howto/pyporting.html)
+- [Python 3.5: What's new](https://docs.python.org/3/whatsnew/3.5.html)
+- [Python 3 Glossory](https://docs.python.org/3/glossary.html)
+- [Python 3 Cookbook on Github](https://github.com/yidao620c/python3-cookbook)
+
 ##Reference
 
 * [十年学会编程](http://daiyuwen.freeshell.org/gb/misc/21-days-cn.html)
