@@ -40,8 +40,8 @@ group: navigation
   - 2012/11 - 2014/02，朋友介绍推荐，自学 **Python**，并解决工作中的一些小问题；之前整理的 [Python Resource](https://dylanninin.com/blog/2013/11/23/python_resource.html)
   - 2013/10 - 2014/02, 朋友介绍推荐，自学 **Ruby/Rails**，此时已经决定离职，希望接下来找一份 **Ruby/Rails** 相关开发的工作；之前整理的 [Learn Rails](https://dylanninin.com/blog/2014/01/02/rails.html)
 - 2014/02 - 2014/03，找工作，[About Me For A New Job](https://dylanninin.com/blog/2014/02/20/about_me.html)
-  - Ruby/Rails 无项目经验 ~~
-  - Python 好一些，有一个简单的 [Blog](https://github.com/dylanninin/blog)
+  - **Ruby/Rails** 无项目经验 ~~
+  - **Python** 好一些，有一个简单的 [Blog](https://github.com/dylanninin/blog)
 - 2014/03 - 2017/04，高级开发工程师 @ [SPONIA](https://sponia.com/)
   - 2014/03 - 2017/04，引入和维护 [Phabricator](https://www.phacility.com/)，作为产品研发办公平台，按需定制功能，集成 **ElasticSearch** 改进搜索，优化邮件通知等
   - 2014/05 - 2014-07，开发 PM 2.5 App，数据源 [PM25.in](http://www.pm25.in/)；技术栈：**Python/Tornado/rq/MongoDB/Supervisor/Nginx**
