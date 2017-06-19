@@ -30,9 +30,7 @@ group: navigation
 
 ## 技术分享
 
-整理了工作中的一些分享，偏向于基础知识，内容深度有限，若有错误还请及时指出。
-
-放在 [SlideShare](https://www.slideshare.net/DylannininGogh/presentations) 上，列表如下
+整理了工作中的一些分享，偏向于基础知识，内容深度有限，若有错误还请及时指出。放在 [SlideShare](https://www.slideshare.net/DylannininGogh/presentations) ，列表如下
 
 - [Git Real](http://www.slideshare.net/DylannininGogh/git-real)
 - [Database Fundamental](http://www.slideshare.net/DylannininGogh/database-fundamental)
@@ -81,7 +79,9 @@ group: navigation
 
 ## 阅读思考
 
-阅读，无论是优秀经典的图书，还是富有启发性的源码，对我们来说都非常重要。陈天在[《为什么我们要阅读源码？》](https://zhuanlan.zhihu.com/p/26181360) 中拿阅读源码与读书类比，总结读书三大功用：
+阅读，无论是优秀经典的图书，还是富有启发性的源码，对我们来说都非常重要。
+
+陈天在[《为什么我们要阅读源码？》](https://zhuanlan.zhihu.com/p/26181360) 中拿阅读源码与读书类比，总结出三大功用：
 
 - 『积累素材（information）』
 - 『开拓思路（knowledge）』
@@ -91,7 +91,7 @@ group: navigation
 
 - [rq](https://github.com/nvie/rq)：Simple job queues for Python。节假日时间阅读完，学习作者如何从一个启发式的 idea 逐步迭代成为一个生产级别的任务队列，简单、轻量、够用。
 - [requests](https://github.com/requests/requests)：Python HTTP Requests for Humans™。涉及 HTTP 网络请求时，经常会用到。主要学习设计，整理过一个简单的流程图 [Understanding Requests](https://github.com/dylanninin/dylanninin.github.com/issues/16)。
-- [tornado](https://github.com/tornadoweb/tornado)：Python web framework and asynchronous networking library。这是之前做 Python Web 开发的主要框架，主要学习它的设计，比如 IOLoop, HTTPServer, Web Application, WSGI、WebSocket 以及 Coroutines/Concurrency 等，见整理 [Understanding Tornado](https://github.com/dylanninin/dylanninin.github.com/issues/12)。
+- [tornado](https://github.com/tornadoweb/tornado)：Python web framework and asynchronous networking library。这是之前做 Python Web 开发的主要框架，主要学习它的设计，比如 IOLoop, HTTPServer, Web Application, WSGI，WebSocket 以及 Coroutines/Concurrency 等，见整理 [Understanding Tornado](https://github.com/dylanninin/dylanninin.github.com/issues/12)。
 - [shadowsocks](https://github.com/shadowsocks/shadowsocks/)：你懂的，主要学习网络相关知识。
 - Activity Streams：包括 timeline, news feed, activity streams and notification systems 等，在互联网应用中会经常看到。最近做[笔试题](https://github.com/dylanninin/tower-events)时碰到，后来看过一些同类源代码，主要学习其设计、实现。
   - [public_activity](https://github.com/chaps-io/public_activity)：Rails, Easy activity tracking for models - similar to Github's Public Activity。
