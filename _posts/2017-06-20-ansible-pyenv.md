@@ -9,11 +9,11 @@ tags: [Ansible, Python, pyenv]
 
 昨天看到 [说说我对 Python 装饰器的理解 - V2EX 后](https://www.v2ex.com/t/369581)，打算重新搭建下 Python 开发环境。之前工作中用 virtualenv + virtualenvwrapper 较多，自从 Ruby 环境管理工具从 rvm 更换到 rbenv 后，想一想也是时候使用 pyenv 了。
 
-现在 DevOps 已全面往 ansible 迁移，对 rbenv 也熟悉，所以想着直接用 Ansible 来安装初始化；意外的是，遇到的问题还挺多（相反，使用 [ansible-rbenv](https://github.com/zzet/ansible-rbenv-role) 就没有遇到什么问题）。特此发贴，希望对大家有所帮助。
+现在 DevOps 已全面往 Ansible 迁移，对 rbenv 也熟悉，所以想着直接用 Ansible 来安装初始化；意外的是，遇到的问题还挺多（相反，使用 [ansible-rbenv](https://github.com/zzet/ansible-rbenv-role) 就没有遇到什么问题）。特此发贴，希望对大家有所帮助。
 
 #### 使用 ansible-pyenv
 
-GitHub 上搜索到 https://github.com/dirn/ansible-pyenv 这个项目，最近更新是 2 年以前，问题多到不可用，现在做了修复，Travis-CI 也跑通了（只是慢得无法仍受）。
+GitHub 上搜索到 [dirn/ansible-pyenv](https://github.com/dirn/ansible-pyen) 这个项目，最近更新是 2 年以前，问题多到不可用，现在做了修复，[Travis-CI](https://travis-ci.org/dylanninin/ansible-pyenv) 也跑通了（只是慢得无法仍受）。
 
 目前暂未合并，要使用可以按以下步骤：
 
@@ -67,7 +67,7 @@ $ ansible-playbook python.yml -l localhost
 
 #### 题外话
 
-https://github.com/pyenv/pyenv 上安装 pyenv 已经足够简单，似乎不足以使用 Ansible 等自动化工具，但 Ansible 带来的变化其实非常大，主要是：
+[pyenv](https://github.com/pyenv/pyenv) 上安装 pyenv 已经足够简单，似乎不足以使用 Ansible 等自动化工具，但 Ansible 带来的变化其实非常大，主要是：
 
 - 自动化。这可能是最明显、最可感知的收效，一两个服务器配置无所谓，一旦多起来了就会重复操作。现在可以自动化，还可以多台机器并行执行。
 - 标准化。『每一片雪花都独一无二』，同样适用于服务器、开发人员；人工操作总会有差异性，规模化之后会很难维护，但『雪崩后没有一片雪花觉得自己有责任』。现在可以做到『标准化』，避免此类问题。
@@ -77,7 +77,7 @@ https://github.com/pyenv/pyenv 上安装 pyenv 已经足够简单，似乎不足
 
 #### 参考
 
-- https://github.com/rbenv/rbenv
-- https://github.com/pyenv/pyenv
+- [rbenv](https://github.com/rbenv/rbenv)
+- [pyenv](https://github.com/pyenv/pyenv)
 - [Update pyenv by dylanninin · Pull Request #7 · dirn/ansible-pyenv](https://github.com/dirn/ansible-pyenv/pull/7)
-- https://github.com/dylanninin/ansible-pyenv
+- [ansible-pyenv](https://github.com/dylanninin/ansible-pyenv)
