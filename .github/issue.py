@@ -4,15 +4,14 @@ import os
 from github import Github
 
 DEST = '_posts'
-CATEGORY = 'Note'
+CATEGORY = 'Post'
 FMT_DATE = '%Y-%m-%d'
 SINCE_DATE = '2023-01-01'
-POST_HEADER = '''
----
+POST_HEADER = '''---
 layout: post
 title: {title}
-category : {category}
-tags : {tags}
+categories: [{category}]
+tags : [{tags}]
 ---
 '''
 gh = Github(os.environ.get('GH_PAT'))
@@ -39,7 +38,7 @@ def export_issue(number):
     date = issue.created_at.strftime(FMT_DATE)
     slug = issue.title.replace('  ', ' ').replace(' ', '-').lower()
     path = f'{DEST}/{date}-{slug}.md'
-    tags = [i.name for i in issue.labels]
+    tags = ','.join([i.name for i in issue.labels])
     header = POST_HEADER.format(title=issue.title, category=CATEGORY, tags=tags)
     comments = '\n'.join([i.body for i in issue.get_comments()])
     with open(path, 'w') as f:
