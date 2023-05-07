@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WeChat API Libraries
-categories: [Post]
+categories: [WeChat]
 tags : [post,wechat]
 ---
 
@@ -49,3 +49,8 @@ tags : [post,wechat]
 ---
 
 找到一个简单易用、稳定可靠的微信 API 开发工具，真是难，难怪很多开发者用上之后大发感慨：好用到哭 😂
+
+---
+Issue: [WeChat API Libraries](https://github.com/dylanninin/dylanninin.github.com/issues/71)
+Created: 2023-05-07 16:33:43
+Updated: 2023-05-07 23:42:46
