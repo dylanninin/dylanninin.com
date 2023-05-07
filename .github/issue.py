@@ -17,9 +17,11 @@ tags : [{tags}]
 '''
 POST_FOOTER = '''
 ---
-Issue: [{title}]({html_url})
-Created: {created_at}
-Updated: {updated_at}
+Original Post
+
+- Issue: [{title}]({html_url})
+- Created: {created_at}
+- Updated: {updated_at}
 '''
 
 
