@@ -38,10 +38,20 @@ def export_issues():
         tags = [i.name for i in issue.labels]
         if POST_FILTER_LABEL not in tags:
             print(f'skip issue-{issue.number}: {issue.title}')
-            continue
+            remove_issue(issue.number)
         else:
             print(f'export issue-{issue.number}: {issue.title}')
             export_issue(issue.number)
+
+
+def remove_issue(number):
+    issue = repo.get_issue(number=number)
+    date = issue.created_at.strftime(FMT_DATE)
+    slug = issue.title.replace('  ', ' ').replace(' ', '-').lower()
+    path = f'{POST_DEST}/{date}-{slug}.md'
+    if os.path.exists(path):
+        print(f'remove issue-{issue.number}: {issue.title}, path: {path}')
+        os.remove(path)
 
 
 def export_issue(number):
