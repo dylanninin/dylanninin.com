@@ -8,20 +8,19 @@ POST_CATEGORY = 'Post'
 POST_FILTER_LABEL = 'post'
 POST_FILTER_DATE = '2023-01-01'
 FMT_DATE = '%Y-%m-%d'
-POST_HEADER = '''---
+POST_LAYOUT = '''---
 layout: post
 title: {title}
 categories: [{categories}]
 tags : [{tags}]
 ---
 '''
-POST_FOOTER = '''
----
-Original Post
+POST_HEADER = '''Original Post
 
 - Issue: [{title}]({html_url})
 - Created: {created_at}
 - Updated: {updated_at}
+---
 '''
 
 
@@ -63,15 +62,15 @@ def export_issue(number):
     tags = ','.join([i.name for i in issue.labels])
     # milestone as category
     categories = issue.milestone.title if issue.milestone else POST_CATEGORY
-    header = POST_HEADER.format(title=issue.title, categories=categories, tags=tags)
+    layout = POST_LAYOUT.format(title=issue.title, categories=categories, tags=tags)
     # comments as content parts
     comments = '\n'.join([i.body for i in issue.get_comments()])
-    footer = POST_FOOTER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, html_url=issue.html_url)
+    header = POST_HEADER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, html_url=issue.html_url)
     with open(path, 'w') as f:
+        f.write(layout + '\n')
         f.write(header + '\n')
         f.write(issue.body + '\n')
         f.write(comments)
-        f.write(footer)
     return path
 
 

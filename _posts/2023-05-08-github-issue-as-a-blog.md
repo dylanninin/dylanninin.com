@@ -5,6 +5,13 @@ categories: [Post]
 tags : [post,github]
 ---
 
+Original Post
+
+- Issue: [GitHub Issue as a Blog](https://github.com/dylanninin/dylanninin.github.com/issues/72)
+- Created: 2023-05-08 01:03:09
+- Updated: 2023-05-08 02:10:37
+---
+
 如何使用 GitHub Issues 作为博客，这里介绍一种简单的实现。
 
 --- 
@@ -64,10 +71,3 @@ GitHub Issues 功能强大，同时提供所见即所得的 markdown 编写体�
 <img width="1279" alt="image" src="https://user-images.githubusercontent.com/550518/236716094-f06c6fc5-1b60-4ead-a86d-aa1a11050424.png">
 
 
-
----
-Original Post
-
-- Issue: [GitHub Issue as a Blog](https://github.com/dylanninin/dylanninin.github.com/issues/72)
-- Created: 2023-05-08 01:03:09
-- Updated: 2023-05-08 02:10:37
