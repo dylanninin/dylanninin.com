@@ -54,7 +54,7 @@ jobs:
         git config --global user.name "Dylanninin"
         if [[ `git status --porcelain` ]]; then
           git add .
-          git commit -m "skip ci"
+          git commit -m "update post - skip ci"
           git push origin master
         else
           echo "clean"
