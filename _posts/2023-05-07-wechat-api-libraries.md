@@ -5,13 +5,6 @@ categories: [WeChat]
 tags : [post,wechat]
 ---
 
-Original Post
-
-- Issue: [WeChat API Libraries](https://github.com/dylanninin/dylanninin.github.com/issues/71)
-- Created: 2023-05-07 16:33:43
-- Updated: 2023-05-07 23:42:46
----
-
 微信个人号接口、微信机器人等开发工具
 
 1. 微信开发工具之 itchat： A complete and graceful API for Wechat. 微信个人号接口、微信机器人及命令行微信，三十行即可自定义个人号机器人。可惜早就不能用了
@@ -56,3 +49,10 @@ Original Post
 ---
 
 找到一个简单易用、稳定可靠的微信 API 开发工具，真是难，难怪很多开发者用上之后大发感慨：好用到哭 😂
+
+Original Post
+
+- Issue: [WeChat API Libraries](https://github.com/dylanninin/dylanninin.github.com/issues/71)
+- Created: 2023-05-07 16:33:43
+- Updated: 2023-05-07 23:42:46
+

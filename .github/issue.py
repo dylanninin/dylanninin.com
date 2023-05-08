@@ -15,12 +15,12 @@ categories: [{categories}]
 tags : [{tags}]
 ---
 '''
-POST_HEADER = '''Original Post
+POST_FOOTER = '''Original Post
 
 - Issue: [{title}]({html_url})
 - Created: {created_at}
 - Updated: {updated_at}
----
+
 '''
 
 
@@ -65,12 +65,12 @@ def export_issue(number):
     layout = POST_LAYOUT.format(title=issue.title, categories=categories, tags=tags)
     # comments as content parts
     comments = '\n'.join([i.body for i in issue.get_comments()])
-    header = POST_HEADER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, html_url=issue.html_url)
+    footer = POST_FOOTER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, html_url=issue.html_url)
     with open(path, 'w') as f:
         f.write(layout + '\n')
-        f.write(header + '\n')
         f.write(issue.body + '\n')
-        f.write(comments)
+        f.write(comments + '\n')
+        f.write(footer)
     return path
 
 
