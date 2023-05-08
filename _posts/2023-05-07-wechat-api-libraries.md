@@ -52,7 +52,7 @@ tags : [post,wechat]
 
 Original Post
 
-- Issue: [WeChat API Libraries](https://github.com/dylanninin/dylanninin.github.com/issues/71)
+- Issue: [WeChat API Libraries](https://github.com/dylanninin/dylanninin.com/issues/71)
 - Created: 2023-05-07 16:33:43
 - Updated: 2023-05-07 23:42:46
 

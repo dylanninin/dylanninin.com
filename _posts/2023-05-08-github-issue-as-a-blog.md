@@ -41,7 +41,7 @@ GitHub Actions：[Actions Doc](https://docs.github.com/en/actions)，GitHub 提�
 
 GitHub  仓库中做一些如下设置
 - GH_PAT：即 Github Personal Access Token，使用方式见 [Creating a personal access token - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-- GH_REPO：即 issues  所在仓库名，如 [dylanninin/dylanninin.github.com](https://github.com/dylanninin/dylanninin.github.com)
+- GH_REPO：即 issues  所在仓库名，如 [dylanninin/dylanninin.com](https://github.com/dylanninin/dylanninin.com)
 设置如图
 <img width="1177" alt="image" src="https://user-images.githubusercontent.com/550518/236716380-f5387ea4-67f0-43e4-adbf-ceac35f2a947.png">
 
@@ -67,7 +67,7 @@ GitHub Issues 功能强大，同时提供所见即所得的 markdown 编写体�
 
 Original Post
 
-- Issue: [GitHub Issue as a Blog](https://github.com/dylanninin/dylanninin.github.com/issues/72)
+- Issue: [GitHub Issue as a Blog](https://github.com/dylanninin/dylanninin.com/issues/72)
 - Created: 2023-05-08 01:03:09
-- Updated: 2023-05-08 02:35:53
+- Updated: 2023-05-08 05:19:07
 

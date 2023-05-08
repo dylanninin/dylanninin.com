@@ -23,13 +23,36 @@ POST_FOOTER = '''Original Post
 
 '''
 
+README_HEADER = '''
+Blog
+---
+
+- [GitHub issue as a Blog](https://github.com/dylanninin/dylanninin.com/issues/72)
+- [Public Blog](https://dylanninin.com)
+
+---
+
+Issues
+---
+
+'''
+
 
 gh = Github(os.environ.get('GH_PAT'))
 repo = gh.get_repo(os.environ.get('GH_REPO'))
 
 
+def render_readme(posts):
+    with open('README.md', 'w') as f:
+        f.write(README_HEADER)
+        for post in posts:
+            text = '- [{title}]({url}) - {date}\n'.format(**post)
+            f.write(text)
+
+
 def export_issues():
     issues = repo.get_issues(state='closed')
+    posts = []
     for issue in issues:
         date = issue.created_at.strftime(FMT_DATE)
         if date < POST_FILTER_DATE:
@@ -40,7 +63,9 @@ def export_issues():
             remove_issue(issue.number)
         else:
             print(f'export issue-{issue.number}: {issue.title}')
-            export_issue(issue.number)
+            post = export_issue(issue.number)
+            posts.append(post)
+    render_readme(posts)
 
 
 def remove_issue(number):
@@ -71,7 +96,14 @@ def export_issue(number):
         f.write(issue.body + '\n')
         f.write(comments + '\n')
         f.write(footer)
-    return path
+
+    post = {
+        'title': issue.title,
+        'date': date,
+        'url': issue.html_url,
+        'path': path,
+    }
+    return post
 
 
 if __name__ == '__main__':
