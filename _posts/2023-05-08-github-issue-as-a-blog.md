@@ -13,7 +13,7 @@ tags : [post,github]
 - labels：对应博文的 tags
 - milestone：对应博文的 categories
 
-主要场景，如文章的发布、更新、删除都可以覆盖，操作上十分方便
+主要场景，如文章的发布、更新、删除都可以完成，操作上十分方便
 - 写一篇文章时，可以利用 GitHub Issues 强大的编辑功能，支持 Markdown，所见即所得
 - 发布文章时，2 步：
     - 1. 添加的 label 为 `post`；带有 `post` 标签的 issues 才会导出为博客。
@@ -70,4 +70,4 @@ Original Post
 
 - Issue: [GitHub Issue as a Blog](https://github.com/dylanninin/dylanninin.github.com/issues/72)
 - Created: 2023-05-08 01:03:09
-- Updated: 2023-05-08 02:06:53
+- Updated: 2023-05-08 02:10:37
