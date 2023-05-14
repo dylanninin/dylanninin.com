@@ -1,7 +1,7 @@
 ---
 layout: post
 title: github issue transfer
-categories: [Sprint 2]
+categories: [GitHub]
 tags : [post,github]
 ---
 
@@ -31,5 +31,5 @@ Original Post
 
 - Issue: [github issue transfer](https://github.com/dylanninin/dylanninin.com/issues/73)
 - Created: 2023-05-14 08:51:23
-- Updated: 2023-05-14 08:51:25
+- Updated: 2023-05-14 08:54:29
 
