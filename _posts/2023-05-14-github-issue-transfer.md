@@ -1,6 +1,6 @@
 ---
 layout: post
-title: github issue transfer
+title: Github Issue Transfer
 categories: [GitHub]
 tags : [post,github]
 ---
