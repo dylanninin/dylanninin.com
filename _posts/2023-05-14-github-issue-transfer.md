@@ -25,11 +25,3 @@ GitHub 提供了 transfer issue 功能，即将 issue 从原仓库 Repository A 
 详情见原文 
 
 - [Transferring an issue to another repository - GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/transferring-an-issue-to-another-repository)
-
-
-Original Post
-
-- Issue: [github issue transfer](https://github.com/dylanninin/dylanninin.com/issues/73)
-- Created: 2023-05-14 08:51:23
-- Updated: 2023-05-14 08:54:29
-
