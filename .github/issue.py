@@ -1,8 +1,14 @@
+from io import BytesIO
 import os
+
+import requests
 
 # see https://pygithub.readthedocs.io/en/latest/examples.html
 from github import Github
 
+BLOG_BASE = os.environ.get('BLOG_BASE') or 'https://dylanninin.com'
+GITHUB_TOKEN = os.environ.get('GH_PAT')
+IMAGE_DEST = 'assets/images/issues'
 POST_DEST = '_posts'
 POST_CATEGORY = 'Post'
 POST_FILTER_LABEL = 'post'
@@ -17,7 +23,7 @@ tags : [{tags}]
 '''
 POST_FOOTER = '''Original Post
 
-- Issue: [{title}]({html_url})
+- Issue: [{title}]({url})
 - Created: {created_at}
 - Updated: {updated_at}
 
@@ -38,7 +44,7 @@ Issues
 '''
 
 
-gh = Github(os.environ.get('GH_PAT'))
+gh = Github(GITHUB_TOKEN)
 repo = gh.get_repo(os.environ.get('GH_REPO'))
 
 
@@ -90,12 +96,14 @@ def export_issue(number):
     layout = POST_LAYOUT.format(title=issue.title, categories=categories, tags=tags)
     # comments as content parts
     comments = '\n'.join([i.body for i in issue.get_comments()])
-    footer = POST_FOOTER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, html_url=issue.html_url)
+
+    # footer = POST_FOOTER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, url=issue.html_url)
+
+    content = '\n'.join([layout, issue.body, comments])
+    content = update_links(content)
+
     with open(path, 'w') as f:
-        f.write(layout + '\n')
-        f.write(issue.body + '\n')
-        f.write(comments + '\n')
-        f.write(footer)
+        f.write(content)
 
     post = {
         'title': issue.title,
@@ -104,6 +112,40 @@ def export_issue(number):
         'path': path,
     }
     return post
+
+
+def update_links(content):
+    assets = download_images(content)
+    # update links
+    for k, v in assets.items():
+        v = os.path.join(BLOG_BASE, v)
+        content = content.replace(k, v)
+    return content
+
+
+def download_image(url):
+    path = os.path.join(IMAGE_DEST, os.path.basename(url)) + '.png'
+    if os.path.exists(path):
+        print(f'skip exists: path={path}, url={url}')
+        return path
+    print(f'download: path={path}, url={url}')
+    resp = requests.get(url, headers={'Authorization': f'token {GITHUB_TOKEN}'})
+    if resp.status_code == 200:
+        buf = BytesIO(resp.content)
+        buf.seek(0)
+        with open(path, 'wb') as f:
+            f.write(buf.getbuffer())
+        return path
+    return path
+
+
+def download_images(text):
+    result = {}
+    for line in text.split('\n'):
+        if line.startswith('<img'):
+            url = line.split('"')[-2]
+            result[url] = download_image(url)
+    return result
 
 
 if __name__ == '__main__':

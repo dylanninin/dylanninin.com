@@ -40,7 +40,7 @@ jobs:
     - name: Install requirements
       id: install-requirements
       run: |
-        pip install PyGithub
+        pip install PyGithub requests
 
     - name: Export issue
       id: export-issue
