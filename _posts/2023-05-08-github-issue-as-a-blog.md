@@ -31,7 +31,7 @@ tags : [post,github]
 
 实现原理
 
-<img width="1021" alt="image" src="https://dylanninin.com/assets/images/issues/236713780-719c8b09-5e2e-41cf-8818-41d538601659.png.png">
+<img width="1021" alt="image" src="https://dylanninin.com/assets/images/issues/236713780-719c8b09-5e2e-41cf-8818-41d538601659.png">
 
 GitHub Pages：[https://pages.github.com/](https://pages.github.com/)，GitHub 提供的静态文件托管服务，开源仓库可以免费使用。
 
@@ -43,7 +43,7 @@ GitHub  仓库中做一些如下设置
 - GH_PAT：即 Github Personal Access Token，使用方式见 [Creating a personal access token - GitHub Docs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - GH_REPO：即 issues  所在仓库名，如 [dylanninin/dylanninin.com](https://github.com/dylanninin/dylanninin.com)
 设置如图
-<img width="1177" alt="image" src="https://dylanninin.com/assets/images/issues/236716380-f5387ea4-67f0-43e4-adbf-ceac35f2a947.png.png">
+<img width="1177" alt="image" src="https://dylanninin.com/assets/images/issues/236716380-f5387ea4-67f0-43e4-adbf-ceac35f2a947.png">
 
 ---
 
@@ -61,6 +61,6 @@ GitHub Issues 功能强大，同时提供所见即所得的 markdown 编写体�
 
 这篇文章，就是使用 GitHub Issues 作为博客，[原文](https://github.com/dylanninin/dylanninin.github.com/issues/72)。
 
-<img width="1279" alt="image" src="https://dylanninin.com/assets/images/issues/236716094-f06c6fc5-1b60-4ead-a86d-aa1a11050424.png.png">
+<img width="1279" alt="image" src="https://dylanninin.com/assets/images/issues/236716094-f06c6fc5-1b60-4ead-a86d-aa1a11050424.png">
 
 

@@ -9,6 +9,7 @@ from github import Github
 BLOG_BASE = os.environ.get('BLOG_BASE') or 'https://dylanninin.com'
 GITHUB_TOKEN = os.environ.get('GH_PAT')
 IMAGE_DEST = 'assets/images/issues'
+IMAGE_EXT = '.png'
 POST_DEST = '_posts'
 POST_CATEGORY = 'Post'
 POST_FILTER_LABEL = 'post'
@@ -124,7 +125,9 @@ def update_links(content):
 
 
 def download_image(url):
-    path = os.path.join(IMAGE_DEST, os.path.basename(url)) + '.png'
+    path = os.path.join(IMAGE_DEST, os.path.basename(url))
+    if not path.endswith(IMAGE_EXT):
+        path = path + IMAGE_EXT
     if os.path.exists(path):
         print(f'skip exists: path={path}, url={url}')
         return path
