@@ -15,6 +15,7 @@ POST_CATEGORY = 'Post'
 POST_FILTER_LABEL = 'post'
 POST_FILTER_DATE = '2023-01-01'
 FMT_DATE = '%Y-%m-%d'
+POST_DELIMITER = '\n\n---\n\n'
 POST_LAYOUT = '''---
 layout: post
 title: {title}
@@ -96,11 +97,10 @@ def export_issue(number):
     categories = issue.milestone.title if issue.milestone else POST_CATEGORY
     layout = POST_LAYOUT.format(title=issue.title, categories=categories, tags=tags)
     # comments as content parts
-    comments = '\n'.join([i.body for i in issue.get_comments()])
-
+    parts = [issue.body] + [i.body for i in issue.get_comments()]
+    body = POST_DELIMITER.join(parts)
     # footer = POST_FOOTER.format(title=issue.title, created_at=issue.created_at, updated_at=issue.updated_at, url=issue.html_url)
-
-    content = '\n'.join([layout, issue.body, comments])
+    content = '\n'.join([layout, body])
     content = update_links(content)
 
     with open(path, 'w') as f:
