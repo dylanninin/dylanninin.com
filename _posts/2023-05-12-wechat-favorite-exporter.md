@@ -1,7 +1,7 @@
 ---
 layout: post
 title: WeChat Favorite Exporter
-categories: [wechat]
+categories: [WeChat]
 tags : [post,wechat]
 ---
 
