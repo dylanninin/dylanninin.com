@@ -10,6 +10,6 @@ Blog
 Issues
 ---
 
-- [程序员资源分享频道网站化](https://github.com/dylanninin/private-note/issues/3) - 2023-05-15
+- [Website of Telegram Channel gotoshare](https://github.com/dylanninin/private-note/issues/3) - 2023-05-15
 - [Github Issue Transfer](https://github.com/dylanninin/private-note/issues/2) - 2023-05-14
 - [WeChat Favorite Exporter](https://github.com/dylanninin/private-note/issues/1) - 2023-05-12
